@@ -1,0 +1,386 @@
+{
+ "version": 1,
+ "generated": "2026-10-30T15:26:12.139Z",
+ "assets": [
+  {
+   "id": "img_title",
+   "type": "image",
+   "tags": [
+    "title",
+    "station",
+    "civ"
+   ],
+   "src": "art/title.webp",
+   "avif": "media/avif/title.avif",
+   "label": "雪の朝の駅（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 57234,
+   "avifBytes": 20958
+  },
+  {
+   "id": "img_village",
+   "type": "image",
+   "tags": [
+    "village",
+    "daily",
+    "work",
+    "civ",
+    "colonial"
+   ],
+   "src": "art/village.webp",
+   "avif": "media/avif/village.avif",
+   "label": "農村（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 45932,
+   "avifBytes": 16209
+  },
+  {
+   "id": "img_factory",
+   "type": "image",
+   "tags": [
+    "factory",
+    "work",
+    "civilian"
+   ],
+   "src": "art/factory.webp",
+   "avif": "media/avif/factory.avif",
+   "label": "軍需工場（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 37814,
+   "avifBytes": 10095
+  },
+  {
+   "id": "img_station",
+   "type": "image",
+   "tags": [
+    "station",
+    "conscription",
+    "career"
+   ],
+   "src": "art/station.webp",
+   "avif": "media/avif/station.avif",
+   "label": "出征の駅（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 40970,
+   "avifBytes": 10053
+  },
+  {
+   "id": "img_barracks",
+   "type": "image",
+   "tags": [
+    "barracks",
+    "training",
+    "unit",
+    "mil"
+   ],
+   "src": "art/barracks.webp",
+   "avif": "media/avif/barracks.avif",
+   "label": "兵営（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 32630,
+   "avifBytes": 8677
+  },
+  {
+   "id": "img_navy",
+   "type": "image",
+   "tags": [
+    "navy",
+    "front",
+    "ops"
+   ],
+   "src": "art/navy.webp",
+   "avif": "media/avif/navy.avif",
+   "label": "艦上（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 25392,
+   "avifBytes": 5431
+  },
+  {
+   "id": "img_airfield",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "front",
+    "ops"
+   ],
+   "src": "art/airfield.webp",
+   "avif": "media/avif/airfield.avif",
+   "label": "飛行場（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 25998,
+   "avifBytes": 4903
+  },
+  {
+   "id": "img_refugees",
+   "type": "image",
+   "tags": [
+    "refugees",
+    "warcrime",
+    "colonial",
+    "front"
+   ],
+   "src": "art/refugees.webp",
+   "avif": "media/avif/refugees.avif",
+   "label": "避難する人々（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 50994,
+   "avifBytes": 15435
+  },
+  {
+   "id": "img_airraid",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "civilian"
+   ],
+   "src": "art/airraid.webp",
+   "avif": "media/avif/airraid.avif",
+   "label": "空襲（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 44536,
+   "avifBytes": 12031
+  },
+  {
+   "id": "img_letters",
+   "type": "image",
+   "tags": [
+    "letters",
+    "letter",
+    "family"
+   ],
+   "src": "art/letters.webp",
+   "avif": "media/avif/letters.avif",
+   "label": "手紙（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 26358,
+   "avifBytes": 7440
+  },
+  {
+   "id": "img_council",
+   "type": "image",
+   "tags": [
+    "council",
+    "state"
+   ],
+   "src": "art/council.webp",
+   "avif": "media/avif/council.avif",
+   "label": "会議室（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 31900,
+   "avifBytes": 8936
+  },
+  {
+   "id": "img_hq",
+   "type": "image",
+   "tags": [
+    "hq",
+    "state",
+    "ops",
+    "cmd"
+   ],
+   "src": "art/hq.webp",
+   "avif": "media/avif/hq.avif",
+   "label": "司令部（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 21086,
+   "avifBytes": 4403
+  },
+  {
+   "id": "img_postwar",
+   "type": "image",
+   "tags": [
+    "postwar"
+   ],
+   "src": "art/postwar.webp",
+   "avif": "media/avif/postwar.avif",
+   "label": "焼け跡（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 45044,
+   "avifBytes": 12792
+  },
+  {
+   "id": "img_wedding",
+   "type": "image",
+   "tags": [
+    "wedding",
+    "romance"
+   ],
+   "src": "art/wedding.webp",
+   "avif": "media/avif/wedding.avif",
+   "label": "婚礼（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 60482,
+   "avifBytes": 15731
+  },
+  {
+   "id": "img_family",
+   "type": "image",
+   "tags": [
+    "family"
+   ],
+   "src": "art/family.webp",
+   "avif": "media/avif/family.avif",
+   "label": "食卓（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 32742,
+   "avifBytes": 5488
+  },
+  {
+   "id": "img_hospital",
+   "type": "image",
+   "tags": [
+    "hospital",
+    "military"
+   ],
+   "src": "art/hospital.webp",
+   "avif": "media/avif/hospital.avif",
+   "label": "病棟（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 56256,
+   "avifBytes": 13400
+  },
+  {
+   "id": "img_ration",
+   "type": "image",
+   "tags": [
+    "ration",
+    "daily",
+    "civilian"
+   ],
+   "src": "art/ration.webp",
+   "avif": "media/avif/ration.avif",
+   "label": "配給の列（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 61980,
+   "avifBytes": 15982
+  },
+  {
+   "id": "img_couple",
+   "type": "image",
+   "tags": [
+    "couple",
+    "romance"
+   ],
+   "src": "art/couple.webp",
+   "avif": "media/avif/couple.avif",
+   "label": "川べりの二人（AI再現）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "bytes": 78520,
+   "avifBytes": 22754
+  },
+  {
+   "id": "clip_airraid",
+   "type": "clip",
+   "tags": [
+    "airraid",
+    "civilian"
+   ],
+   "src": "media/clips/airraid.mp4",
+   "poster": "art/airraid.webp",
+   "label": "空襲（AI再現・静止画から生成した6秒の動き）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "derivedFrom": "img_airraid",
+   "bytes": 84711,
+   "muted": true,
+   "loop": true,
+   "seconds": 6
+  },
+  {
+   "id": "clip_navy",
+   "type": "clip",
+   "tags": [
+    "navy",
+    "front"
+   ],
+   "src": "media/clips/navy.mp4",
+   "poster": "art/navy.webp",
+   "label": "艦上（AI再現・静止画から生成した6秒の動き）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "derivedFrom": "img_navy",
+   "bytes": 61715,
+   "muted": true,
+   "loop": true,
+   "seconds": 6
+  },
+  {
+   "id": "clip_letters",
+   "type": "clip",
+   "tags": [
+    "letters",
+    "letter"
+   ],
+   "src": "media/clips/letters.mp4",
+   "poster": "art/letters.webp",
+   "label": "手紙（AI再現・静止画から生成した6秒の動き）",
+   "license": "AI生成画像（本プロジェクト用・権利は制作者に帰属）",
+   "source": "Grok Bot GenerateImage（2026-10生成）",
+   "rights": "GameBar777 / 岐路の十年",
+   "ai": true,
+   "derivedFrom": "img_letters",
+   "bytes": 67570,
+   "muted": true,
+   "loop": true,
+   "seconds": 6
+  }
+ ]
+}
