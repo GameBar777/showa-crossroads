@@ -1,0 +1,156 @@
+{
+ "base": "https://gamebar777.github.io/showa-crossroads/",
+ "at": "2026-10-30T15:33:04.650Z",
+ "results": [
+  {
+   "name": "mobile civ/farm_f: reaches ending through UI",
+   "pass": true,
+   "info": "174 steps, cards: event,news,flash,end"
+  },
+  {
+   "name": "mobile civ/farm_f: header year never goes backwards",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: timeline panel lists 史実 rows",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: autosave offers 続きから after reload",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "pass": true,
+   "info": "overflow 0px"
+  },
+  {
+   "name": "mobile civ: no console/page errors",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "desktop mil/navy_air_yokaren: reaches ending through UI",
+   "pass": true,
+   "info": "181 steps, cards: news,event,flash,death,end"
+  },
+  {
+   "name": "desktop mil/navy_air_yokaren: header year never goes backwards",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "desktop: timeline panel lists 史実 rows",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "desktop: autosave offers 続きから after reload",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "desktop: no horizontal overflow",
+   "pass": true,
+   "info": "overflow 0px"
+  },
+  {
+   "name": "desktop mil: no console/page errors",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile cmd/cmd_army_coy: reaches ending through UI",
+   "pass": true,
+   "info": "246 steps, cards: news,event,flash,death,end"
+  },
+  {
+   "name": "mobile cmd/cmd_army_coy: header year never goes backwards",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: timeline panel lists 史実 rows",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: autosave offers 続きから after reload",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "pass": true,
+   "info": "overflow 0px"
+  },
+  {
+   "name": "mobile cmd: no console/page errors",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile state/state: reaches ending through UI",
+   "pass": true,
+   "info": "135 steps, cards: event,news,letter,end"
+  },
+  {
+   "name": "mobile state/state: header year never goes backwards",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: timeline panel lists 史実 rows",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: autosave offers 続きから after reload",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "pass": true,
+   "info": "overflow 0px"
+  },
+  {
+   "name": "mobile state: no console/page errors",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile mil/army_conscript: reaches ending through UI",
+   "pass": true,
+   "info": "197 steps, cards: news,event,flash,letter,death,end"
+  },
+  {
+   "name": "mobile mil/army_conscript: header year never goes backwards",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: timeline panel lists 史実 rows",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: autosave offers 続きから after reload",
+   "pass": true,
+   "info": ""
+  },
+  {
+   "name": "mobile: no horizontal overflow",
+   "pass": true,
+   "info": "overflow 0px"
+  },
+  {
+   "name": "mobile mil: no console/page errors",
+   "pass": true,
+   "info": ""
+  }
+ ]
+}
