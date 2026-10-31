@@ -13,6 +13,7 @@ import { POST } from './post.mjs';
 import { ALM_CIV } from './almanac-civ.mjs';
 import { ALM_MIL } from './almanac-mil.mjs';
 import { ALM_STATE } from './almanac-state.mjs';
+import { ALM_STATE2 } from './almanac-state2.mjs';
 import { REAL, NPC } from './people.mjs';
 import { BACKGROUNDS, MIL_STARTS, CMD_STARTS, RANKS, REGIONS, PRICES, GLOSSARY } from './settings.mjs';
 
@@ -66,7 +67,7 @@ for (const h of histAll) {
   if (h.hist === '改変' && (!h.cause || !(h.flags || []).length)) err(`${h.id}: 改変 needs cause+flags`);
   for (const l of h.news || []) if (!SPEAKERS[l.sp] && !REAL.find(p => p.id === l.sp)) err(`${h.id}: unknown speaker ${l.sp}`);
 }
-const events = [...CHINA, ...MANCHU, ...PACIFIC, ...PHIL, ...HOME_CHAIN, ...ROMANCE, ...CIV, ...HOME_POOL, ...MIL, ...FRONT_TAIL, ...CMD, ...STATE, ...POST, ...ALM_CIV, ...ALM_MIL, ...ALM_STATE];
+const events = [...CHINA, ...MANCHU, ...PACIFIC, ...PHIL, ...HOME_CHAIN, ...ROMANCE, ...CIV, ...HOME_POOL, ...MIL, ...FRONT_TAIL, ...CMD, ...STATE, ...POST, ...ALM_CIV, ...ALM_MIL, ...ALM_STATE, ...ALM_STATE2];
 const ids = new Set();
 for (const r of [...histAll, ...events, ...REAL, ...REGIONS, ...PRICES, ...GLOSSARY]) { if (ids.has(r.id)) err(`duplicate id ${r.id}`); ids.add(r.id); }
 const evIds = new Set(events.map(e => e.id)), hIds = new Set(histAll.map(h => h.id));

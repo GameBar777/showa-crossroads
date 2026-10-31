@@ -21,7 +21,7 @@ export function almanac(prefix, modes, category, text, base = {}) {
         return C(icon, label, tone, eff, { ...(res ? { res } : {}), ...(k + 1 < ids.length ? { later: [0, ids[k + 1]] } : {}) });
       });
       if (!ch.length) throw new Error(`${ids[k]}: no choices`);
-      const cond = k ? { modes, w: 0 } : { modes, w: 0, auto: 1, from: ym, to: addM(ym.slice(0, 7), +(o.win || 1)), ...base };
+      const cond = k ? { modes, w: 0 } : { modes, w: 0, auto: 1, from: ym, to: addM(ym.slice(0, 7), +(o.win || (modes.includes('state') ? 3 : 2))), ...base };
       if (!k) for (const key of ['not', 'flags', 'any']) if (o[key]) cond[key] = [...(base[key] || []), ...o[key].split(',')];
       if (!k && o.sex) cond.sex = o.sex;
       if (!k && o.branch) cond.branch = o.branch.split(',');
