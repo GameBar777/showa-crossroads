@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-10-31T00:51:50.098Z",
+ "generated": "2026-10-31T02:23:40.615Z",
  "assets": [
   {
    "id": "img_title",
@@ -481,7 +481,7 @@
    "ai": false,
    "date": "1937-09",
    "bytes": 64128,
-   "avifBytes": 39387
+   "avifBytes": 46710
   },
   {
    "id": "cn_baoshan",
@@ -641,7 +641,7 @@
    "ai": false,
    "date": "Taken on 16 November 1937",
    "bytes": 33842,
-   "avifBytes": 30126
+   "avifBytes": 32187
   },
   {
    "id": "cn_sihang_attack",
@@ -760,7 +760,7 @@
    "ai": false,
    "date": "1939-06-30",
    "bytes": 59492,
-   "avifBytes": 37083
+   "avifBytes": 43261
   },
   {
    "id": "mn_captured",
@@ -779,7 +779,7 @@
    "ai": false,
    "date": "1939-08",
    "bytes": 56602,
-   "avifBytes": 40189
+   "avifBytes": 44983
   },
   {
    "id": "mn_armistice",
@@ -898,7 +898,7 @@
    "ai": false,
    "date": "Unknown date",
    "bytes": 63764,
-   "avifBytes": 41517
+   "avifBytes": 49310
   },
   {
    "id": "mn_return",
@@ -979,7 +979,7 @@
    "ai": false,
    "date": "1944-07-01",
    "bytes": 88814,
-   "avifBytes": 56275
+   "avifBytes": 65643
   },
   {
    "id": "pc_saipanbeach",
@@ -1018,7 +1018,7 @@
    "ai": false,
    "date": "1943-11",
    "bytes": 49304,
-   "avifBytes": 37045
+   "avifBytes": 41583
   },
   {
    "id": "pc_tarawatank",
@@ -1038,7 +1038,7 @@
    "ai": false,
    "date": "1943-11-01 00:00",
    "bytes": 90378,
-   "avifBytes": 60352
+   "avifBytes": 70870
   },
   {
    "id": "pc_betio",
@@ -1098,7 +1098,7 @@
    "ai": false,
    "date": "Unknown date",
    "bytes": 54266,
-   "avifBytes": 35106
+   "avifBytes": 39808
   },
   {
    "id": "pc_peleliu",
@@ -1138,7 +1138,7 @@
    "ai": false,
    "date": "2017-07-25 11:09:15",
    "bytes": 119142,
-   "avifBytes": 80413
+   "avifBytes": 84848
   },
   {
    "id": "pc_matanikau",
@@ -1360,7 +1360,7 @@
    "ai": false,
    "date": "1945-02-10",
    "bytes": 52814,
-   "avifBytes": 40236
+   "avifBytes": 42535
   },
   {
    "id": "ph_intramuros",
@@ -1462,7 +1462,7 @@
    "ai": false,
    "date": "1945-08",
    "bytes": 47824,
-   "avifBytes": 32624
+   "avifBytes": 36850
   },
   {
    "id": "ph_corregidor",
@@ -1482,7 +1482,7 @@
    "ai": false,
    "date": "between 13 February 1945 and 16 February",
    "bytes": 15674,
-   "avifBytes": 18022
+   "avifBytes": 15041
   },
   {
    "id": "ph_baleta",
@@ -1522,7 +1522,7 @@
    "ai": false,
    "date": "circa 1945date QS:P,+1945-00-00T00:00:00",
    "bytes": 34756,
-   "avifBytes": 30691
+   "avifBytes": 34493
   },
   {
    "id": "ph_shikishima",
@@ -1992,7 +1992,7 @@
    "ai": false,
    "date": "1945",
    "bytes": 93806,
-   "avifBytes": 56214
+   "avifBytes": 67200
   },
   {
    "id": "hm_nakamise",
@@ -2093,7 +2093,7 @@
    "ai": false,
    "date": "1945-03",
    "bytes": 108208,
-   "avifBytes": 52868
+   "avifBytes": 64725
   },
   {
    "id": "hm_kushiro",
@@ -2210,7 +2210,7 @@
    "ai": false,
    "date": "1946",
    "bytes": 91744,
-   "avifBytes": 51381
+   "avifBytes": 63352
   },
   {
    "id": "hm2_village41",
@@ -2230,7 +2230,7 @@
    "ai": false,
    "date": "1941",
    "bytes": 42194,
-   "avifBytes": 32810
+   "avifBytes": 31599
   },
   {
    "id": "hm2_girl36",
@@ -2250,7 +2250,7 @@
    "ai": false,
    "date": "1936",
    "bytes": 45578,
-   "avifBytes": 43317
+   "avifBytes": 38638
   },
   {
    "id": "hm2_children39",
@@ -2270,7 +2270,7 @@
    "ai": false,
    "date": "1939",
    "bytes": 41900,
-   "avifBytes": 32516
+   "avifBytes": 31429
   },
   {
    "id": "hm2_bamboo",
@@ -2290,7 +2290,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 45226,
-   "avifBytes": 35292
+   "avifBytes": 33433
   },
   {
    "id": "hm2_oldman",
@@ -2310,7 +2310,7 @@
    "ai": false,
    "date": "1939",
    "bytes": 48242,
-   "avifBytes": 37380
+   "avifBytes": 36404
   },
   {
    "id": "hm2_school40a",
@@ -2350,7 +2350,7 @@
    "ai": false,
    "date": "c. 1940s",
    "bytes": 124090,
-   "avifBytes": 82259
+   "avifBytes": 82417
   },
   {
    "id": "hm2_shelter",
@@ -2391,7 +2391,7 @@
    "ai": false,
    "date": "1939",
    "bytes": 76588,
-   "avifBytes": 51078
+   "avifBytes": 50209
   },
   {
    "id": "hm2_seinento",
@@ -2431,7 +2431,7 @@
    "ai": false,
    "date": "1939",
    "bytes": 67358,
-   "avifBytes": 50760
+   "avifBytes": 48344
   },
   {
    "id": "hm2_demob",
@@ -2493,7 +2493,7 @@
    "ai": false,
    "date": "1939",
    "bytes": 15354,
-   "avifBytes": 17227
+   "avifBytes": 13563
   },
   {
    "id": "hm2_fukui",
@@ -2553,7 +2553,7 @@
    "ai": false,
    "date": "1940",
    "bytes": 61342,
-   "avifBytes": 50082
+   "avifBytes": 45175
   },
   {
    "id": "hm2_aoyama",
@@ -2592,7 +2592,7 @@
    "ai": false,
    "date": "1945",
    "bytes": 32784,
-   "avifBytes": 37603
+   "avifBytes": 27591
   },
   {
    "id": "hm2_aikoku",
@@ -2653,7 +2653,7 @@
    "ai": false,
    "date": "after 17 July 1945date QS:P,+1945-07-17T",
    "bytes": 53122,
-   "avifBytes": 36619
+   "avifBytes": 36521
   },
   {
    "id": "hm2_armyday44",
@@ -2833,7 +2833,7 @@
    "ai": false,
    "date": "circa 1936date QS:P,+1936-00-00T00:00:00",
    "bytes": 12482,
-   "avifBytes": 15121
+   "avifBytes": 10463
   },
   {
    "id": "hm2_labor",
@@ -2935,7 +2935,7 @@
    "ai": false,
    "date": "1940",
    "bytes": 87770,
-   "avifBytes": 61824
+   "avifBytes": 62670
   },
   {
    "id": "hm2_newspaper44",
@@ -3017,7 +3017,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 62474,
-   "avifBytes": 45633
+   "avifBytes": 44227
   },
   {
    "id": "hm2_inshelter",
@@ -3140,7 +3140,7 @@
    "ai": false,
    "date": "1937",
    "bytes": 80994,
-   "avifBytes": 57012
+   "avifBytes": 57402
   },
   {
    "id": "hm2_senninbari",
@@ -3220,7 +3220,7 @@
    "ai": false,
    "date": "1937",
    "bytes": 36496,
-   "avifBytes": 32114
+   "avifBytes": 31040
   },
   {
    "id": "hm2_summer37",
@@ -3240,7 +3240,7 @@
    "ai": false,
    "date": "1937",
    "bytes": 29688,
-   "avifBytes": 26336
+   "avifBytes": 23390
   },
   {
    "id": "hm2_bucketstud",
@@ -3303,7 +3303,7 @@
    "ai": false,
    "date": "21 November 1945",
    "bytes": 97078,
-   "avifBytes": 65530
+   "avifBytes": 65417
   },
   {
    "id": "hm2_demolition",
@@ -3324,7 +3324,7 @@
    "ai": false,
    "date": "昭和20年撮影",
    "bytes": 51996,
-   "avifBytes": 36621
+   "avifBytes": 36970
   },
   {
    "id": "hm2_teishin",
@@ -3407,7 +3407,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 38598,
-   "avifBytes": 29426
+   "avifBytes": 28996
   },
   {
    "id": "hm2_hands1",
@@ -3427,7 +3427,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 25284,
-   "avifBytes": 27756
+   "avifBytes": 23210
   },
   {
    "id": "hm2_nurse38",
@@ -3446,7 +3446,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 23556,
-   "avifBytes": 20863
+   "avifBytes": 18458
   },
   {
    "id": "hm2_redcross1",
@@ -3465,7 +3465,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 14434,
-   "avifBytes": 16857
+   "avifBytes": 13308
   },
   {
    "id": "hm2_redcross2",
@@ -3484,7 +3484,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 37638,
-   "avifBytes": 37439
+   "avifBytes": 32759
   },
   {
    "id": "hm2_redcross3",
@@ -3502,7 +3502,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 21558,
-   "avifBytes": 21467
+   "avifBytes": 18599
   },
   {
    "id": "hm2_kasaya",
@@ -3521,7 +3521,7 @@
    "ai": false,
    "date": "1938",
    "bytes": 38654,
-   "avifBytes": 29102
+   "avifBytes": 27830
   },
   {
    "id": "hm2_narita",
@@ -3561,7 +3561,7 @@
    "ai": false,
    "date": "1946",
    "bytes": 59400,
-   "avifBytes": 45529
+   "avifBytes": 46627
   },
   {
    "id": "hm2_orphan",
@@ -3581,7 +3581,7 @@
    "ai": false,
    "date": "1946",
    "bytes": 40672,
-   "avifBytes": 33704
+   "avifBytes": 30048
   },
   {
    "id": "hm2_kokushikan",
@@ -3642,7 +3642,7 @@
    "ai": false,
    "date": "1941-12-07",
    "bytes": 93408,
-   "avifBytes": 68152
+   "avifBytes": 65198
   },
   {
    "id": "nv_hiryu",
@@ -3663,7 +3663,7 @@
    "ai": false,
    "date": "5 June 1942date QS:P571,+1942-06-05T00:0",
    "bytes": 43200,
-   "avifBytes": 41466
+   "avifBytes": 36975
   },
   {
    "id": "nv_akagi",
@@ -3683,7 +3683,7 @@
    "ai": false,
    "date": "1941-12-24",
    "bytes": 32900,
-   "avifBytes": 29583
+   "avifBytes": 28497
   },
   {
    "id": "nv_yamato",
@@ -3724,7 +3724,7 @@
    "ai": false,
    "date": "",
    "bytes": 46760,
-   "avifBytes": 40512
+   "avifBytes": 37537
   },
   {
    "id": "air_chiran",
