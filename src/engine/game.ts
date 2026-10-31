@@ -388,21 +388,25 @@ export function successors(st: State) {
   const k = st.kids.find(k => k.alive); if (k) r.push({ key: 'child', label: `${fill(st, '{child}')}として生きる`, icon: '🧒' });
   if (st.npcs.friend?.alive) r.push({ key: 'friend', label: `友・${fill(st, '{friend}')}として生きる`, icon: '🤝' });
   if (st.npcs.sib?.alive) r.push({ key: 'sib', label: `${st.npcs.sib.sex === 'm' ? '弟' : '妹'}・${st.npcs.sib.name.split(' ')[1]}として生きる`, icon: '🫂' });
+  if (!r.length && !has(st, 'kin_used') && st.date < '1947-03') r.push({ key: 'kin', label: '遠縁のいとことして生きる', icon: '🏡' });
   return r;
 }
 export function succeed(st: State, key: string) {
   st.lives.push({ ...st.dead, gen: st.gen });
   if (key === 'none' || !key) { st.over = true; st.card = endCard(st); return; }
+  if (key === 'kin') { st.flags.kin_used = 1; st.npcs.kin = mkNpc(st, 'kin', st.p.sex, yearOf(st.date) - 16); }
   const n = key === 'child' ? st.kids.find(k => k.alive)! : st.npcs[key];
   const prev = st.p;
   st.gen++; st.dead = null; st.mode = 'civ'; st.u = null;
-  st.p = { name: n.name, sex: n.sex, birth: n.birth, bg: 'heir_' + key, rank: 0, place: prev.place, label: ({ partner: '遺された伴侶', child: '遺された子', friend: '遺された友', sib: '遺されたきょうだい' } as any)[key] };
+  // 死者の戦場の連鎖（mil専用の続き）は継承者に持ち越さない
+  st.queue = st.queue.filter(q => { const e: any = EV[q.id]; return e && (!e.cond?.modes || e.cond.modes.includes('civ')); });
+  st.p = { name: n.name, sex: n.sex, birth: n.birth, bg: 'heir_' + key, rank: 0, place: prev.place, label: ({ partner: '遺された伴侶', child: '遺された子', friend: '遺された友', sib: '遺されたきょうだい', kin: '遠縁のいとこ' } as any)[key] };
   for (const f of ['deployed', 'at_front', 'in_service', 'china_front', 'south_front', 'tokko', 'to_barracks', 'reserve', 'redpaper_due', 'examined', 'call_up', 'farewell_done', 'p_resent', 'p_wish_denied', 'tokko_asked']) delete st.flags[f];
   st.s = { hp: 75, yen: Math.max(10, st.s.yen), spirit: 40, bond: st.s.bond, rep: 40, consc: st.s.consc };
   const old = { name: prev.name, sex: prev.sex, birth: prev.birth };
   if (key === 'partner') { st.flags.partner_dead = 1; st.npcs.partner = { ...st.npcs.partner, name: old.name, sex: old.sex, birth: old.birth, alive: false, rel: 80 }; st.flags.heir_partner = 1; }
   else if (key === 'child') { const pn = st.npcs.partner; st.kids = st.kids.filter(k => k !== n); st.npcs.child = st.kids[0]; delete st.flags.married; delete st.flags.rom_met; delete st.flags.rom_court; delete st.flags.rom_engaged; if (pn?.alive) st.npcs.mother = { ...pn, role: 'mother' }; st.npcs.partner = mkNpc(st, 'partner', n.sex === 'm' ? 'f' : 'm', yearOf(n.birth)); st.flags.heir_child = 1; for (const f of ['kid1', 'kid2', 'pregnant', 'pregnant2', 'omiai_done', 'omiai_yes', 'love_declared', 'rom_closed', 'regret_love']) delete st.flags[f]; }
-  else if (key === 'sib') { st.npcs.sib = { ...st.npcs.sib, alive: false }; for (const f of ['married', 'rom_met', 'rom_court', 'rom_engaged', 'kid1', 'kid2', 'rom_closed', 'omiai_done', 'omiai_yes', 'regret_love', 'love_declared', 'pregnant', 'pregnant2']) delete st.flags[f]; st.kids = []; st.npcs.child = undefined as any; st.npcs.partner = mkNpc(st, 'partner', n.sex === 'm' ? 'f' : 'm', yearOf(n.birth)); st.flags.heir_sib = 1; }
+  else if (key === 'sib' || key === 'kin') { if (key === 'sib') st.npcs.sib = { ...st.npcs.sib, alive: false }; for (const f of ['married', 'rom_met', 'rom_court', 'rom_engaged', 'kid1', 'kid2', 'rom_closed', 'omiai_done', 'omiai_yes', 'regret_love', 'love_declared', 'pregnant', 'pregnant2']) delete st.flags[f]; st.kids = []; st.npcs.child = undefined as any; st.npcs.partner = mkNpc(st, 'partner', n.sex === 'm' ? 'f' : 'm', yearOf(n.birth)); st.flags[key === 'sib' ? 'heir_sib' : 'heir_kin'] = 1; }
   else { st.npcs.friend = { ...st.npcs.friend, name: old.name, alive: false }; for (const f of ['married', 'rom_met', 'rom_court', 'rom_engaged', 'kid1', 'kid2', 'rom_closed', 'omiai_done', 'omiai_yes', 'regret_love', 'love_declared', 'pregnant', 'pregnant2']) delete st.flags[f]; st.kids = []; st.npcs.child = undefined as any; st.npcs.partner = mkNpc(st, 'partner', n.sex === 'm' ? 'f' : 'm', yearOf(n.birth)); st.flags.heir_friend = 1; }
   st.tl.push({ date: st.date, kind: '人生', title: `${n.name} が物語を継ぐ`, id: 'heir_' + st.gen });
   st.card = null;
