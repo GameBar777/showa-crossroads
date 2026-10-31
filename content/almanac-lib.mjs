@@ -24,6 +24,7 @@ export function almanac(prefix, modes, category, text, base = {}) {
       const cond = k ? { modes, w: 0 } : { modes, w: 0, auto: 1, from: ym, to: addM(ym.slice(0, 7), +(o.win || 1)), ...base };
       if (!k) for (const key of ['not', 'flags', 'any']) if (o[key]) cond[key] = [...(base[key] || []), ...o[key].split(',')];
       if (!k && o.sex) cond.sex = o.sex;
+      if (!k && o.branch) cond.branch = o.branch.split(',');
       const x = { art: o.art || 'village', hist, title: k ? `${title}（${k + 1}）` : title, scene: id0 };
       if (srcs) x.sources = src(...srcs.split(',').map(s => s.trim()));
       if (o.note && !k) x.note = o.note;
