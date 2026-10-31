@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-31T02:23:43.654Z",
+  "generatedAt": "2026-10-31T03:01:58.700Z",
   "goal": 10000,
   "content": {
-    "records": 596,
+    "records": 1358,
     "hist": 97,
-    "events": 276,
+    "events": 1038,
     "people": 35,
     "items": 17,
     "speakers": 45,
@@ -18,14 +18,14 @@
       "prices": 12,
       "glossary": 35
     },
-    "dialogueLines": 681,
-    "choices": 527,
-    "referenced": 276,
-    "reachedInAutoplay": 349,
-    "eventsReached": 263,
-    "histReached": 86,
-    "unimplementedTowardGoal": 9404,
-    "progress": 5.96
+    "dialogueLines": 2034,
+    "choices": 1824,
+    "referenced": 1038,
+    "reachedInAutoplay": 1108,
+    "eventsReached": 1023,
+    "histReached": 85,
+    "unimplementedTowardGoal": 8642,
+    "progress": 13.58
   },
   "media": {
     "images": 192,
