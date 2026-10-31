@@ -93,7 +93,8 @@ function artFor(c: Card) {
   const tags = [art, c.ev?.category || c.hist?.category || '', st!.mode];
   const want = c.ev?.img || c.hist?.img; const wantClip = c.ev?.clip || c.hist?.clip;
   if (want && !wantClip) { const x = pickAsset([], '', 'image', want); if (x) return pictureHtml(x); }
-  const clip = wantClip ? pickAsset([], '', 'clip', wantClip) : (c.kind === 'news' || c.ev?.category === 'front') && !want ? pickAsset([...(c.ev?.tags || []), ...tags], c.id || '', 'clip') : null;
+  // News cards only get a clip assigned per place (content/media-assign.json); front events auto-pick a clip only on a specific tag/art match, never on the generic 'front' category.
+  const clip = wantClip ? pickAsset([], '', 'clip', wantClip) : c.ev?.category === 'front' && !want ? pickAsset([...(c.ev?.tags || []), art], c.id || '', 'clip') : null;
   if (clip && !matchMedia('(prefers-reduced-motion: reduce)').matches) return clipHtml(clip);
   const a = pickAsset([...(c.ev?.tags || []), ...tags], c.id || '');
   return a ? pictureHtml(a) : `<figure class="art"><img src="${url('art/' + art + '.webp')}" alt="" loading="lazy"><figcaption><b>AI再現</b>イメージ</figcaption></figure>`;
@@ -113,7 +114,7 @@ function play() {
     body = `<article class="card news ${h.hist === '改変' ? 'alt' : ''}">
       <div class="paper"><div class="mast">号外<small>${fmtJa(h.date)}</small></div>
       <span class="tag ${h.hist === '改変' ? 'alt' : 'real'}">${h.hist}</span>
-      <h2>${esc(h.title)}</h2>${h.art ? artFor(c) : ''}<div class="lines">${linesHtml(c.lines)}</div>
+      <h2>${esc(h.title)}</h2>${h.art || h.img || h.clip ? artFor(c) : ''}<div class="lines">${linesHtml(c.lines)}</div>
       ${h.hist === '改変' && h.cause ? `<p class="cause">🔀 分岐の原因：${esc(h.cause)}</p>` : ''}
       ${(c.more || []).map((m: any) => `<div class="more"><span class="tag ${m.hist === '改変' ? 'alt' : 'real'}">${m.hist}</span><b>${fmtShort(m.date)}</b> ${esc(m.title)}${srcHtml(m)}</div>`).join('')}
       ${srcHtml(h)}</div></article>`;

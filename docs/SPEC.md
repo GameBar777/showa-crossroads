@@ -12,6 +12,6 @@ mulberry32 系 seed。同一 seed＋同一選択で同一人生（vitest で検�
 ## セーブ
 localStorage `kiro10.save`（version付き、migrate()で旧版変換、未来版/他アプリは拒否）。ファイル/テキストでエクスポート・インポート。
 ## メディア
-`public/media/manifest.json`：各アセットに tags / license / source / label。AVIF→WebPの`<picture>`、lazy loading。動画は1MB未満（ビルド時に強制）。
+`public/media/manifest.json`：各アセットに tags / license / source / label。AVIF→WebPの`<picture>`、lazy loading。動画は1MB未満（ビルド時に強制）。実写（PD/明示ライセンス）を優先し、場面ごとの割り当ては `scripts/assign-media.mjs` → `content/media-assign.json` を `content/build.mjs` が適用する（イベントに img/clip の明示があればそちらが優先）。ニュースカードは手作業で地名・出来事が一致するものだけに画像/映像を付け、それ以外は画像なし（またはAI再現表示付き）。ニュース映画クリップを前線イベントに自動で付けるのは、イベントのタグ・art が一致したときだけ。AI再現は必ず画面に表示する。
 ## 既知の範囲外
 指揮官モードは戦術を抽象化（作戦の詳細シミュレーションはしない）。音声は効果音のみ。

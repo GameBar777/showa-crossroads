@@ -8,15 +8,17 @@ const imgs = M.filter(a => a.type === 'image'), clips = M.filter(a => a.type ===
 const use = {}; const mode = process.argv[2] || 'after';
 const cards = [...D.events.map(e => ({ x: e, kind: 'ev' })), ...D.hist.map(h => ({ x: h, kind: 'news' }))];
 for (const { x, kind } of cards) {
+  if (kind === 'news' && !x.art && !(mode === 'after' && (x.img || x.clip))) continue; // news cards without art show no visual
   const art = x.art || 'village'; let id;
   if (mode === 'before') id = 'art:' + art;
   else {
     const tags = [...(x.tags || []), art, x.category || '', (x.cond?.modes || ['civ'])[0]];
     if (x.clip) id = x.clip; else if (x.img) id = x.img;
-    else { const c = (kind === 'news' || x.category === 'front') ? pick(clips, tags, x.id) : null; id = c ? c.id : (pick(imgs, tags, x.id)?.id || 'art:' + art); }
+    else { const c = x.category === 'front' ? pick(clips, [...(x.tags || []), art], x.id) : null; id = c ? c.id : (pick(imgs, tags, x.id)?.id || 'art:' + art); }
   }
   use[id] = (use[id] || 0) + 1;
 }
 const v = Object.values(use).sort((a, b) => b - a), real = new Set(M.filter(a => !a.ai).map(a => a.id));
 const realCards = Object.entries(use).filter(([k]) => real.has(k)).reduce((s, [, n]) => s + n, 0);
-console.log(JSON.stringify({ mode, cards: cards.length, distinctVisuals: v.length, maxUsesOfOneVisual: v[0], avgCardsPerVisual: +(cards.length / v.length).toFixed(2), cardsWithRealMedia: realCards, top5: Object.entries(use).sort((a, b) => b[1] - a[1]).slice(0, 5) }));
+const shown = Object.values(use).reduce((a, b) => a + b, 0); const aiCards = Object.entries(use).filter(([k]) => !real.has(k)).reduce((s, [, n]) => s + n, 0);
+console.log(JSON.stringify({ mode, cardsWithVisual: shown, aiCards, distinctVisuals: v.length, maxUsesOfOneVisual: v[0], avgCardsPerVisual: +(shown / v.length).toFixed(2), cardsWithRealMedia: realCards, top5: Object.entries(use).sort((a, b) => b[1] - a[1]).slice(0, 5) }));

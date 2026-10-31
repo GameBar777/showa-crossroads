@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-10-31T00:14:52.216Z",
+ "generated": "2026-10-31T00:51:50.098Z",
  "assets": [
   {
    "id": "img_title",
@@ -2211,6 +2211,1662 @@
    "date": "1946",
    "bytes": 91744,
    "avifBytes": 51381
+  },
+  {
+   "id": "hm2_village41",
+   "type": "image",
+   "tags": [
+    "village",
+    "rural",
+    "home"
+   ],
+   "src": "media/photos/hm2_village41.webp",
+   "avif": "media/photos/hm2_village41.avif",
+   "label": "農村の記念写真（栃木・筑波村、1941年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_commemorative_photo_at_a_rural_village_-_Tsukuba_village_Tochigi_prefecture_-_1941_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "A commemorative photo at a rural village - Tsukuba village Tochigi prefecture - 1941 - Domon Ken.png",
+   "ai": false,
+   "date": "1941",
+   "bytes": 42194,
+   "avifBytes": 32810
+  },
+  {
+   "id": "hm2_girl36",
+   "type": "image",
+   "tags": [
+    "village",
+    "child",
+    "home"
+   ],
+   "src": "media/photos/hm2_girl36.webp",
+   "avif": "media/photos/hm2_girl36.avif",
+   "label": "少女（1936年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_girl_-_1936_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "A girl - 1936 - Domon Ken.png",
+   "ai": false,
+   "date": "1936",
+   "bytes": 45578,
+   "avifBytes": 43317
+  },
+  {
+   "id": "hm2_children39",
+   "type": "image",
+   "tags": [
+    "child",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_children39.webp",
+   "avif": "media/photos/hm2_children39.avif",
+   "label": "子どもたち（1939年、植田正治）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_group_of_children_-_1939_-_Ueda_Sh%C5%8Dji.png",
+   "rights": "Shōji Ueda",
+   "title": "A group of children - 1939 - Ueda Shōji.png",
+   "ai": false,
+   "date": "1939",
+   "bytes": 41900,
+   "avifBytes": 32516
+  },
+  {
+   "id": "hm2_bamboo",
+   "type": "image",
+   "tags": [
+    "daily",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_bamboo.webp",
+   "avif": "media/photos/hm2_bamboo.avif",
+   "label": "竹細工の職人（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:An_artisan_of_bamboowork,_Amigumi_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "An artisan of bamboowork, Amigumi - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 45226,
+   "avifBytes": 35292
+  },
+  {
+   "id": "hm2_oldman",
+   "type": "image",
+   "tags": [
+    "village",
+    "family",
+    "home"
+   ],
+   "src": "media/photos/hm2_oldman.webp",
+   "avif": "media/photos/hm2_oldman.avif",
+   "label": "老人と少女（宮崎県、1939年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:An_old_man_and_a_girl_-_Miyazaki_prefecture_-_1939_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "An old man and a girl - Miyazaki prefecture - 1939 - Domon Ken.png",
+   "ai": false,
+   "date": "1939",
+   "bytes": 48242,
+   "avifBytes": 37380
+  },
+  {
+   "id": "hm2_school40a",
+   "type": "image",
+   "tags": [
+    "family",
+    "send-off",
+    "home"
+   ],
+   "src": "media/photos/hm2_school40a.webp",
+   "avif": "media/photos/hm2_school40a.avif",
+   "label": "学生服の少年・将校・着物の女性（1940年代）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:C._1940s_adolescent_school_boy,_officer,_and_a_woman_in_kimono.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "C. 1940s adolescent school boy, officer, and a woman in kimono.jpg",
+   "ai": false,
+   "date": "before 1945date QS:P,+1945-00-00T00:00:0",
+   "bytes": 72230,
+   "avifBytes": 52587
+  },
+  {
+   "id": "hm2_schoolgirls",
+   "type": "image",
+   "tags": [
+    "student",
+    "child",
+    "home"
+   ],
+   "src": "media/photos/hm2_schoolgirls.webp",
+   "avif": "media/photos/hm2_schoolgirls.avif",
+   "label": "清水寺西門前の女学生たち（1940年代）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:C._1940s_group_photo_of_school_girls_with_adults_before_the_West_Gate_of_Kiyomizu-dera.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "C. 1940s group photo of school girls with adults before the West Gate of Kiyomizu-dera.jpg",
+   "ai": false,
+   "date": "c. 1940s",
+   "bytes": 124090,
+   "avifBytes": 82259
+  },
+  {
+   "id": "hm2_shelter",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "drill",
+    "tonarigumi",
+    "home"
+   ],
+   "src": "media/photos/hm2_shelter.webp",
+   "avif": "media/photos/hm2_shelter.avif",
+   "label": "防空壕の建設",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Construction_of_Air-raid_shelter_in_Japan.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Construction of Air-raid shelter in Japan.JPG",
+   "ai": false,
+   "date": "1940-09",
+   "bytes": 32426,
+   "avifBytes": 22669
+  },
+  {
+   "id": "hm2_kensei",
+   "type": "image",
+   "tags": [
+    "drill",
+    "tonarigumi",
+    "home"
+   ],
+   "src": "media/photos/hm2_kensei.webp",
+   "avif": "media/photos/hm2_kensei.avif",
+   "label": "戦時訓練に集まる人々（健生町）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Crowds_at_a_wartime_drill_in_Kenseicho.jpg",
+   "rights": "李火增",
+   "title": "Crowds at a wartime drill in Kenseicho.jpg",
+   "ai": false,
+   "date": "1939",
+   "bytes": 76588,
+   "avifBytes": 51078
+  },
+  {
+   "id": "hm2_seinento",
+   "type": "image",
+   "tags": [
+    "propaganda",
+    "mobilization",
+    "home"
+   ],
+   "src": "media/photos/hm2_seinento.webp",
+   "avif": "media/photos/hm2_seinento.avif",
+   "label": "大日本青年党",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Dainihon_Seinento.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Dainihon Seinento.jpg",
+   "ai": false,
+   "date": "1940",
+   "bytes": 45632,
+   "avifBytes": 31287
+  },
+  {
+   "id": "hm2_disaster39",
+   "type": "image",
+   "tags": [
+    "drill",
+    "airraid",
+    "home"
+   ],
+   "src": "media/photos/hm2_disaster39.webp",
+   "avif": "media/photos/hm2_disaster39.avif",
+   "label": "防災訓練（1939年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Disaster_drill_at_Kenseicho_1939.jpg",
+   "rights": "李火增",
+   "title": "Disaster drill at Kenseicho 1939.jpg",
+   "ai": false,
+   "date": "1939",
+   "bytes": 67358,
+   "avifBytes": 50760
+  },
+  {
+   "id": "hm2_demob",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "return",
+    "station",
+    "home"
+   ],
+   "src": "media/photos/hm2_demob.webp",
+   "avif": "media/photos/hm2_demob.avif",
+   "label": "復員兵で満員の列車（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Discharged_Japanese_soldiers_crowd_trains_as_they_take_advantage_of_free_transportation_to_their_homes_after_end_of..._-_NARA_-_520936.jpg",
+   "rights": "Wayne Miller",
+   "title": "Discharged Japanese soldiers crowd trains as they take advantage of free transportation to their homes after end of... - NARA - 520936.jpg",
+   "ai": false,
+   "date": "September 1945date QS:P571,+1945-09-00T0",
+   "bytes": 57728,
+   "avifBytes": 42604
+  },
+  {
+   "id": "hm2_schooldrill",
+   "type": "image",
+   "tags": [
+    "school",
+    "child",
+    "drill",
+    "home"
+   ],
+   "src": "media/photos/hm2_schooldrill.webp",
+   "avif": "media/photos/hm2_schooldrill.avif",
+   "label": "国民学校の軍事教練（東京・中目黒）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Elementary_school_students_were_given_military_drills_(Nakameguro_National_School_in_Tokyo),_1942.jpg",
+   "rights": "中目黒国民学校",
+   "title": "Elementary school students were given military drills (Nakameguro National School in Tokyo), 1942.jpg",
+   "ai": false,
+   "date": "1942-05",
+   "bytes": 65382,
+   "avifBytes": 45515
+  },
+  {
+   "id": "hm2_girls39",
+   "type": "image",
+   "tags": [
+    "child",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_girls39.webp",
+   "avif": "media/photos/hm2_girls39.avif",
+   "label": "少女たちの四態（1939年、植田正治）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Four_postures_of_girls_-_1939_-_Ueda_Sh%C5%8Dji.png",
+   "rights": "Shōji Ueda",
+   "title": "Four postures of girls - 1939 - Ueda Shōji.png",
+   "ai": false,
+   "date": "1939",
+   "bytes": 15354,
+   "avifBytes": 17227
+  },
+  {
+   "id": "hm2_fukui",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "station",
+    "home"
+   ],
+   "src": "media/photos/hm2_fukui.webp",
+   "avif": "media/photos/hm2_fukui.avif",
+   "label": "空襲後の福井駅前通り（1945年7月30日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Fukui_station_road_in_Fukui_city_on_July_30,_1945.jpg",
+   "rights": "撮影者：石川光陽、画像加工者：Doraemonplus",
+   "title": "Fukui station road in Fukui city on July 30, 1945.jpg",
+   "ai": false,
+   "date": "1945-07-30",
+   "bytes": 193110,
+   "avifBytes": 121446
+  },
+  {
+   "id": "hm2_sanatorium",
+   "type": "image",
+   "tags": [
+    "hospital",
+    "home"
+   ],
+   "src": "media/photos/hm2_sanatorium.webp",
+   "avif": "media/photos/hm2_sanatorium.avif",
+   "label": "登別の療養所を慰問（1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Fumiko_Sano_visiting_a_sanatorium_in_Noboribetsu_in_1941.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Fumiko Sano visiting a sanatorium in Noboribetsu in 1941.jpg",
+   "ai": false,
+   "date": "1941-09",
+   "bytes": 124440,
+   "avifBytes": 53436
+  },
+  {
+   "id": "hm2_okfuneral",
+   "type": "image",
+   "tags": [
+    "funeral",
+    "okinawa",
+    "home"
+   ],
+   "src": "media/photos/hm2_okfuneral.webp",
+   "avif": "media/photos/hm2_okfuneral.avif",
+   "label": "沖縄の葬列（1940年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Funeral_cortege_in_Okinawa_-_1940_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Funeral cortege in Okinawa - 1940 - Domon Ken.png",
+   "ai": false,
+   "date": "1940",
+   "bytes": 61342,
+   "avifBytes": 50082
+  },
+  {
+   "id": "hm2_aoyama",
+   "type": "image",
+   "tags": [
+    "send-off",
+    "student",
+    "home"
+   ],
+   "src": "media/photos/hm2_aoyama.webp",
+   "avif": "media/photos/hm2_aoyama.avif",
+   "label": "青山学院の学徒出陣",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Gakuto_Shutsujin_of_Aoyama_Gakuin.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Gakuto Shutsujin of Aoyama Gakuin.jpg",
+   "ai": false,
+   "date": "1943-10-21",
+   "bytes": 143658,
+   "avifBytes": 93113
+  },
+  {
+   "id": "hm2_girls45",
+   "type": "image",
+   "tags": [
+    "child",
+    "home"
+   ],
+   "src": "media/photos/hm2_girls45.webp",
+   "avif": "media/photos/hm2_girls45.avif",
+   "label": "少女たち（1945年、植田正治）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Girls_-_1945_-_Ueda_Sh%C5%8Dji.png",
+   "rights": "Shōji Ueda",
+   "title": "Girls - 1945 - Ueda Shōji.png",
+   "ai": false,
+   "date": "1945",
+   "bytes": 32784,
+   "avifBytes": 37603
+  },
+  {
+   "id": "hm2_aikoku",
+   "type": "image",
+   "tags": [
+    "women",
+    "tonarigumi",
+    "send-off",
+    "home"
+   ],
+   "src": "media/photos/hm2_aikoku.webp",
+   "avif": "media/photos/hm2_aikoku.avif",
+   "label": "愛国婦人会の記念写真（1930年代）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Group_photo_of_members_of_Patriotic_Women%27s_Association_circa_1930s.jpg",
+   "rights": "born1945",
+   "title": "Group photo of members of Patriotic Women's Association circa 1930s.jpg",
+   "ai": false,
+   "date": "before 1942date QS:P,+1942-00-00T00:00:0",
+   "bytes": 131858,
+   "avifBytes": 92781
+  },
+  {
+   "id": "hm2_himeyuri",
+   "type": "image",
+   "tags": [
+    "okinawa",
+    "student",
+    "hospital"
+   ],
+   "src": "media/photos/hm2_himeyuri.webp",
+   "avif": "media/photos/hm2_himeyuri.avif",
+   "label": "ひめゆり学徒",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Himeyuri_Students.jpg",
+   "rights": "IslandKings",
+   "title": "Himeyuri Students.jpg",
+   "ai": false,
+   "date": "1944",
+   "bytes": 74028,
+   "avifBytes": 54388
+  },
+  {
+   "id": "hm2_hiratsuka",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm2_hiratsuka.webp",
+   "avif": "media/photos/hm2_hiratsuka.avif",
+   "label": "空襲後の平塚（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Hiratsuka_after_the_1945_air_raid.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Hiratsuka after the 1945 air raid.jpg",
+   "ai": false,
+   "date": "after 17 July 1945date QS:P,+1945-07-17T",
+   "bytes": 53122,
+   "avifBytes": 36619
+  },
+  {
+   "id": "hm2_armyday44",
+   "type": "image",
+   "tags": [
+    "propaganda",
+    "home"
+   ],
+   "src": "media/photos/hm2_armyday44.webp",
+   "avif": "media/photos/hm2_armyday44.avif",
+   "label": "陸軍記念日（1944年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Imperial_Japanese_Army_Commemoration_Day_in_1944.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Imperial Japanese Army Commemoration Day in 1944.JPG",
+   "ai": false,
+   "date": "1944-03-10",
+   "bytes": 86634,
+   "avifBytes": 59172
+  },
+  {
+   "id": "hm2_kokubo",
+   "type": "image",
+   "tags": [
+    "women",
+    "send-off",
+    "funeral",
+    "home"
+   ],
+   "src": "media/photos/hm2_kokubo.webp",
+   "avif": "media/photos/hm2_kokubo.avif",
+   "label": "国防婦人会・靖国神社（1938年10月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japan_Defense_Women%27s_Association_Yasukuni_in_1938-10.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japan Defense Women's Association Yasukuni in 1938-10.jpg",
+   "ai": false,
+   "date": "1938-10",
+   "bytes": 114042,
+   "avifBytes": 71728
+  },
+  {
+   "id": "hm2_mansettler",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "settler",
+    "village"
+   ],
+   "src": "media/photos/hm2_mansettler.webp",
+   "avif": "media/photos/hm2_mansettler.avif",
+   "label": "満洲の日本人開拓民（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_settler_in_Manchuria_(1945).JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japanese settler in Manchuria (1945).JPG",
+   "ai": false,
+   "date": "1945-08",
+   "bytes": 17854,
+   "avifBytes": 15354
+  },
+  {
+   "id": "hm2_mansettlers3",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "settler",
+    "village"
+   ],
+   "src": "media/photos/hm2_mansettlers3.webp",
+   "avif": "media/photos/hm2_mansettlers3.avif",
+   "label": "満洲の開拓民",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_settlers_in_Manchuria(3).JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japanese settlers in Manchuria(3).JPG",
+   "ai": false,
+   "date": "ar. 1942",
+   "bytes": 48310,
+   "avifBytes": 35706
+  },
+  {
+   "id": "hm2_mansettlers6",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "settler",
+    "farm"
+   ],
+   "src": "media/photos/hm2_mansettlers6.webp",
+   "avif": "media/photos/hm2_mansettlers6.avif",
+   "label": "満洲の開拓民",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_settlers_in_Manchuria(6).JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japanese settlers in Manchuria(6).JPG",
+   "ai": false,
+   "date": "ar. 1937",
+   "bytes": 36048,
+   "avifBytes": 26242
+  },
+  {
+   "id": "hm2_manwomen",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "settler",
+    "family"
+   ],
+   "src": "media/photos/hm2_manwomen.webp",
+   "avif": "media/photos/hm2_manwomen.avif",
+   "label": "満洲の開拓民の女性と子ども",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_settler_women_and_children_in_Manchuria.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japanese settler women and children in Manchuria.JPG",
+   "ai": false,
+   "date": "1940sdate QS:P,+1940-00-00T00:00:00Z/8",
+   "bytes": 71612,
+   "avifBytes": 49386
+  },
+  {
+   "id": "hm2_ogouchi",
+   "type": "image",
+   "tags": [
+    "village",
+    "child",
+    "home"
+   ],
+   "src": "media/photos/hm2_ogouchi.webp",
+   "avif": "media/photos/hm2_ogouchi.avif",
+   "label": "小河内村の子ども（1936年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Ken_Domon,1936_Ogouchimura_no_Kodomo.jpg",
+   "rights": "土門拳",
+   "title": "Ken Domon,1936 Ogouchimura no Kodomo.jpg",
+   "ai": false,
+   "date": "1936-01-01",
+   "bytes": 17326,
+   "avifBytes": 12076
+  },
+  {
+   "id": "hm2_kendo",
+   "type": "image",
+   "tags": [
+    "school",
+    "drill",
+    "home"
+   ],
+   "src": "media/photos/hm2_kendo.webp",
+   "avif": "media/photos/hm2_kendo.avif",
+   "label": "国民学校の剣術訓練（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kenjutus_training_at_a_National_School_1943_Japan.jpg",
+   "rights": "梅本忠男 Umemoto, Tadao（ネガ番号: 5506）",
+   "title": "Kenjutus training at a National School 1943 Japan.jpg",
+   "ai": false,
+   "date": "1943-03",
+   "bytes": 83032,
+   "avifBytes": 56696
+  },
+  {
+   "id": "hm2_kumada",
+   "type": "image",
+   "tags": [
+    "family",
+    "letters",
+    "home"
+   ],
+   "src": "media/photos/hm2_kumada.webp",
+   "avif": "media/photos/hm2_kumada.avif",
+   "label": "自宅の熊田五郎（1936年頃、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kumada_Gor%C5%8D_at_home_-_ca1936_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Kumada Gorō at home - ca1936 - Domon Ken.png",
+   "ai": false,
+   "date": "circa 1936date QS:P,+1936-00-00T00:00:00",
+   "bytes": 12482,
+   "avifBytes": 15121
+  },
+  {
+   "id": "hm2_labor",
+   "type": "image",
+   "tags": [
+    "mobilization",
+    "factory",
+    "home"
+   ],
+   "src": "media/photos/hm2_labor.webp",
+   "avif": "media/photos/hm2_labor.avif",
+   "label": "勤労動員",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Labor_Mobilization_in_Japanese_Empire.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Labor Mobilization in Japanese Empire.JPG",
+   "ai": false,
+   "date": "1944",
+   "bytes": 39394,
+   "avifBytes": 29293
+  },
+  {
+   "id": "hm2_bigshelter",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "shelter",
+    "home"
+   ],
+   "src": "media/photos/hm2_bigshelter.webp",
+   "avif": "media/photos/hm2_bigshelter.avif",
+   "label": "大型防空壕",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Large_scale_air-raid_shelter_in_Japan.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Large scale air-raid shelter in Japan.JPG",
+   "ai": false,
+   "date": "1944-04-01",
+   "bytes": 36402,
+   "avifBytes": 26368
+  },
+  {
+   "id": "hm2_castor",
+   "type": "image",
+   "tags": [
+    "farm",
+    "propaganda",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_castor.webp",
+   "avif": "media/photos/hm2_castor.avif",
+   "label": "「荒鷲のためにヒマを作ろう」",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Lets_grow_Castor-oil_plant_for_eagle.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Lets grow Castor-oil plant for eagle.JPG",
+   "ai": false,
+   "date": "During 1940-1945",
+   "bytes": 24424,
+   "avifBytes": 22183
+  },
+  {
+   "id": "hm2_maebashi",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm2_maebashi.webp",
+   "avif": "media/photos/hm2_maebashi.avif",
+   "label": "空襲後の前橋（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Maebashi_after_the_1945_air_raid.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Maebashi after the 1945 air raid.JPG",
+   "ai": false,
+   "date": "1945-11",
+   "bytes": 69602,
+   "avifBytes": 47806
+  },
+  {
+   "id": "hm2_nahamarket",
+   "type": "image",
+   "tags": [
+    "okinawa",
+    "daily",
+    "ration",
+    "home"
+   ],
+   "src": "media/photos/hm2_nahamarket.webp",
+   "avif": "media/photos/hm2_nahamarket.avif",
+   "label": "那覇の古着市場（1940年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Market_in_Naha,_old_clothes_-_1940_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Market in Naha, old clothes - 1940 - Domon Ken.png",
+   "ai": false,
+   "date": "1940",
+   "bytes": 87770,
+   "avifBytes": 61824
+  },
+  {
+   "id": "hm2_newspaper44",
+   "type": "image",
+   "tags": [
+    "news",
+    "airraid",
+    "home"
+   ],
+   "src": "media/photos/hm2_newspaper44.webp",
+   "avif": "media/photos/hm2_newspaper44.avif",
+   "label": "空襲を報じる読売報知（1944年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:News_of_bombardments_on_Yomiuri-Hochi_1944.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "News of bombardments on Yomiuri-Hochi 1944.jpg",
+   "ai": false,
+   "date": "1944-10-13",
+   "bytes": 152944,
+   "avifBytes": 115671
+  },
+  {
+   "id": "hm2_naginata",
+   "type": "image",
+   "tags": [
+    "school",
+    "drill",
+    "women",
+    "home"
+   ],
+   "src": "media/photos/hm2_naginata.webp",
+   "avif": "media/photos/hm2_naginata.avif",
+   "label": "国民学校のなぎなた体操（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nginata_Calisthenics_at_a_National_School_1943_Takasaki,_Gunma,_Japan.jpg",
+   "rights": "梅本忠男 Umemoto, Tadao（ネガ番号: 5509）",
+   "title": "Nginata Calisthenics at a National School 1943 Takasaki, Gunma, Japan.jpg",
+   "ai": false,
+   "date": "1943-03",
+   "bytes": 110258,
+   "avifBytes": 70589
+  },
+  {
+   "id": "hm2_shelterbuild",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "tonarigumi",
+    "shelter",
+    "home"
+   ],
+   "src": "media/photos/hm2_shelterbuild.webp",
+   "avif": "media/photos/hm2_shelterbuild.avif",
+   "label": "防空壕を掘る人々（東三日市）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:People_build_Air%E2%80%90raid_shelter_in_Higashi-Mikkaichi.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "People build Air‐raid shelter in Higashi-Mikkaichi.jpg",
+   "ai": false,
+   "date": "1945",
+   "bytes": 92418,
+   "avifBytes": 66561
+  },
+  {
+   "id": "hm2_clothes38",
+   "type": "image",
+   "tags": [
+    "ration",
+    "tonarigumi",
+    "home"
+   ],
+   "src": "media/photos/hm2_clothes38.webp",
+   "avif": "media/photos/hm2_clothes38.avif",
+   "label": "配給衣料に集まる人々（銀座、1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:People_gathering_to_obtain_clothes_supplied_by_authorities_-_Ginza_T%C5%8Dky%C5%8D_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "People gathering to obtain clothes supplied by authorities - Ginza Tōkyō - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 62474,
+   "avifBytes": 45633
+  },
+  {
+   "id": "hm2_inshelter",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "shelter",
+    "home"
+   ],
+   "src": "media/photos/hm2_inshelter.webp",
+   "avif": "media/photos/hm2_inshelter.avif",
+   "label": "防空壕に避難する人々",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:People_who_were_escaping_in_the_air-raid_shelter_in_Japan.jpg",
+   "rights": "Shigeru Tamura",
+   "title": "People who were escaping in the air-raid shelter in Japan.jpg",
+   "ai": false,
+   "date": "昭和18年",
+   "bytes": 66922,
+   "avifBytes": 46132
+  },
+  {
+   "id": "hm2_ricefield36",
+   "type": "image",
+   "tags": [
+    "farm",
+    "village",
+    "rural",
+    "home"
+   ],
+   "src": "media/photos/hm2_ricefield36.webp",
+   "avif": "media/photos/hm2_ricefield36.avif",
+   "label": "石田村の田んぼ（1936年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Rice_fields_in_Ishida_village_in_1936.jpg",
+   "rights": "港湾協会第九回通常総会富山準備委員会",
+   "title": "Rice fields in Ishida village in 1936.jpg",
+   "ai": false,
+   "date": "1936",
+   "bytes": 91404,
+   "avifBytes": 63431
+  },
+  {
+   "id": "hm2_save",
+   "type": "image",
+   "tags": [
+    "propaganda",
+    "ration",
+    "home"
+   ],
+   "src": "media/photos/hm2_save.webp",
+   "avif": "media/photos/hm2_save.avif",
+   "label": "貯蓄奨励",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Save_for_nation_nippon.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Save for nation nippon.jpg",
+   "ai": false,
+   "date": "before 1945date QS:P,+1945-00-00T00:00:0",
+   "bytes": 55146,
+   "avifBytes": 45594
+  },
+  {
+   "id": "hm2_lunch44",
+   "type": "image",
+   "tags": [
+    "school",
+    "ration",
+    "child",
+    "home"
+   ],
+   "src": "media/photos/hm2_lunch44.webp",
+   "avif": "media/photos/hm2_lunch44.avif",
+   "label": "国民学校の給食（1944年、横浜）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:School_lunch_1944_Hajime_National_School,_Hodogaya,_Yokohama,_Japan.jpg",
+   "rights": "梅本忠男 Umemoto, Tadao（ネガ番号: 9069）",
+   "title": "School lunch 1944 Hajime National School, Hodogaya, Yokohama, Japan.jpg",
+   "ai": false,
+   "date": "1944-03",
+   "bytes": 92672,
+   "avifBytes": 63158
+  },
+  {
+   "id": "hm2_sendai",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm2_sendai.webp",
+   "avif": "media/photos/hm2_sendai.avif",
+   "label": "空襲後の仙台（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Sendai_after_the_1945_air_raid.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Sendai after the 1945 air raid.JPG",
+   "ai": false,
+   "date": "1945-09-18",
+   "bytes": 81784,
+   "avifBytes": 50511
+  },
+  {
+   "id": "hm2_senninbari37",
+   "type": "image",
+   "tags": [
+    "senninbari",
+    "send-off",
+    "letters",
+    "home"
+   ],
+   "src": "media/photos/hm2_senninbari37.webp",
+   "avif": "media/photos/hm2_senninbari37.avif",
+   "label": "千人針（銀座、1937年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Sen%27nin-bari_-_Ginza_-_1937_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Sen'nin-bari - Ginza - 1937 - Domon Ken.png",
+   "ai": false,
+   "date": "1937",
+   "bytes": 80994,
+   "avifBytes": 57012
+  },
+  {
+   "id": "hm2_senninbari",
+   "type": "image",
+   "tags": [
+    "senninbari",
+    "letters",
+    "home"
+   ],
+   "src": "media/photos/hm2_senninbari.webp",
+   "avif": "media/photos/hm2_senninbari.avif",
+   "label": "千人針",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Senninbari.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Senninbari.jpg",
+   "ai": false,
+   "date": "1937",
+   "bytes": 47220,
+   "avifBytes": 42869
+  },
+  {
+   "id": "hm2_shashin",
+   "type": "image",
+   "tags": [
+    "news",
+    "propaganda",
+    "home"
+   ],
+   "src": "media/photos/hm2_shashin.webp",
+   "avif": "media/photos/hm2_shashin.avif",
+   "label": "『写真週報』第257号",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Shashin_Shuho_vol_257.jpg",
+   "rights": "Shashin Shūhō vol. 257, 3 February 1943 issue (『寫眞週報』第二五七號、昭和十八年二月三日)",
+   "title": "Shashin Shuho vol 257.jpg",
+   "ai": false,
+   "date": "published on February 3rd 1943",
+   "bytes": 61990,
+   "avifBytes": 43686
+  },
+  {
+   "id": "hm2_sinzyo",
+   "type": "image",
+   "tags": [
+    "school",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_sinzyo.webp",
+   "avif": "media/photos/hm2_sinzyo.avif",
+   "label": "新城の国民学校",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Sinzy%C3%B4_elementary_school.jpg",
+   "rights": "新庄自治振興会",
+   "title": "Sinzyô elementary school.jpg",
+   "ai": false,
+   "date": "1943",
+   "bytes": 140960,
+   "avifBytes": 94523
+  },
+  {
+   "id": "hm2_suburb37",
+   "type": "image",
+   "tags": [
+    "village",
+    "rural",
+    "home"
+   ],
+   "src": "media/photos/hm2_suburb37.webp",
+   "avif": "media/photos/hm2_suburb37.avif",
+   "label": "郊外（1937年、植田正治）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Suburb_-_1937_-_Ueda_Sh%C5%8Dji.png",
+   "rights": "Shōji Ueda",
+   "title": "Suburb - 1937 - Ueda Shōji.png",
+   "ai": false,
+   "date": "1937",
+   "bytes": 36496,
+   "avifBytes": 32114
+  },
+  {
+   "id": "hm2_summer37",
+   "type": "image",
+   "tags": [
+    "village",
+    "farm",
+    "home"
+   ],
+   "src": "media/photos/hm2_summer37.webp",
+   "avif": "media/photos/hm2_summer37.avif",
+   "label": "夏・灼熱の日（1937年、植田正治）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Summer-Blazing_Sun_-_1937_-_Ueda_Sh%C5%8Dji.png",
+   "rights": "Shōji Ueda",
+   "title": "Summer-Blazing Sun - 1937 - Ueda Shōji.png",
+   "ai": false,
+   "date": "1937",
+   "bytes": 29688,
+   "avifBytes": 26336
+  },
+  {
+   "id": "hm2_bucketstud",
+   "type": "image",
+   "tags": [
+    "drill",
+    "airraid",
+    "student",
+    "home"
+   ],
+   "src": "media/photos/hm2_bucketstud.webp",
+   "avif": "media/photos/hm2_bucketstud.avif",
+   "label": "バケツリレーの訓練をする中学生",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:The_junior_high_students_train_by_the_bucket_brigade_in_Japan.jpg",
+   "rights": "Shigeru Tamura",
+   "title": "The junior high students train by the bucket brigade in Japan.jpg",
+   "ai": false,
+   "date": "昭和19年",
+   "bytes": 52010,
+   "avifBytes": 34344
+  },
+  {
+   "id": "hm2_agrischool",
+   "type": "image",
+   "tags": [
+    "farm",
+    "school",
+    "village",
+    "home"
+   ],
+   "src": "media/photos/hm2_agrischool.webp",
+   "avif": "media/photos/hm2_agrischool.avif",
+   "label": "富山県立小杉農学校",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Toyama_prefectural_Kosugi_agricultural_school(2).jpg",
+   "rights": "富山県",
+   "title": "Toyama prefectural Kosugi agricultural school(2).jpg",
+   "ai": false,
+   "date": "1939",
+   "bytes": 51838,
+   "avifBytes": 44448
+  },
+  {
+   "id": "hm2_stall45",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "daily",
+    "ration",
+    "home"
+   ],
+   "src": "media/photos/hm2_stall45.webp",
+   "avif": "media/photos/hm2_stall45.avif",
+   "label": "東京の露店（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tokyo_street_stal_1945_SLNSW_FL9537650.jpg",
+   "rights": "Ray Olson",
+   "title": "Tokyo street stal 1945 SLNSW FL9537650.jpg",
+   "ai": false,
+   "date": "21 November 1945",
+   "bytes": 97078,
+   "avifBytes": 65530
+  },
+  {
+   "id": "hm2_demolition",
+   "type": "image",
+   "tags": [
+    "evacuation",
+    "tonarigumi",
+    "airraid",
+    "home"
+   ],
+   "src": "media/photos/hm2_demolition.webp",
+   "avif": "media/photos/hm2_demolition.avif",
+   "label": "建物疎開（銀座、1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Wartime_building_demolition_at_Ginza_in_1945.jpg",
+   "rights": "Kōji Morooka",
+   "title": "Wartime building demolition at Ginza in 1945.jpg",
+   "ai": false,
+   "date": "昭和20年撮影",
+   "bytes": 51996,
+   "avifBytes": 36621
+  },
+  {
+   "id": "hm2_teishin",
+   "type": "image",
+   "tags": [
+    "factory",
+    "mobilization",
+    "women",
+    "home"
+   ],
+   "src": "media/photos/hm2_teishin.webp",
+   "avif": "media/photos/hm2_teishin.avif",
+   "label": "女子挺身隊（東京）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Women%27s_volunteer_corps_at_Tokyo.jpg",
+   "rights": "Shigeru Tamura",
+   "title": "Women's volunteer corps at Tokyo.jpg",
+   "ai": false,
+   "date": "昭和18年",
+   "bytes": 32638,
+   "avifBytes": 24649
+  },
+  {
+   "id": "hm2_teishin1",
+   "type": "image",
+   "tags": [
+    "factory",
+    "mobilization",
+    "women",
+    "home"
+   ],
+   "src": "media/photos/hm2_teishin1.webp",
+   "avif": "media/photos/hm2_teishin1.avif",
+   "label": "女子挺身隊",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Women_volunteer_corps1.JPG",
+   "rights": "Unknown authorUnknown author",
+   "title": "Women volunteer corps1.JPG",
+   "ai": false,
+   "date": "1942-01-22",
+   "bytes": 27490,
+   "avifBytes": 22363
+  },
+  {
+   "id": "hm2_taue",
+   "type": "image",
+   "tags": [
+    "farm",
+    "village",
+    "rural",
+    "home"
+   ],
+   "src": "media/photos/hm2_taue.webp",
+   "avif": "media/photos/hm2_taue.avif",
+   "label": "田植え姿（南秋田・金足）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E7%94%B0%E6%A4%8D%E5%A7%BF_%E5%8D%97%E7%A7%8B%E7%94%B0%E3%83%BB%E9%87%91%E8%B6%B3.jpg",
+   "rights": "柳田国男、三木茂",
+   "title": "田植姿 南秋田・金足.jpg",
+   "ai": false,
+   "date": "1944",
+   "bytes": 47250,
+   "avifBytes": 31612
+  },
+  {
+   "id": "hm2_seishin38",
+   "type": "image",
+   "tags": [
+    "propaganda",
+    "tonarigumi",
+    "home"
+   ],
+   "src": "media/photos/hm2_seishin38.webp",
+   "avif": "media/photos/hm2_seishin38.avif",
+   "label": "国民精神総動員の正月（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:The_National_Spirit_Mobilization_Movement_in_the_Japanese_New_Year_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "The National Spirit Mobilization Movement in the Japanese New Year - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 38598,
+   "avifBytes": 29426
+  },
+  {
+   "id": "hm2_hands1",
+   "type": "image",
+   "tags": [
+    "daily",
+    "factory",
+    "home"
+   ],
+   "src": "media/photos/hm2_hands1.webp",
+   "avif": "media/photos/hm2_hands1.avif",
+   "label": "働く手（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Hands_as_tools_-_1_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Hands as tools - 1 - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 25284,
+   "avifBytes": 27756
+  },
+  {
+   "id": "hm2_nurse38",
+   "type": "image",
+   "tags": [
+    "hospital",
+    "women"
+   ],
+   "src": "media/photos/hm2_nurse38.webp",
+   "avif": "media/photos/hm2_nurse38.avif",
+   "label": "若い看護婦（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_young_nurse_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "A young nurse - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 23556,
+   "avifBytes": 20863
+  },
+  {
+   "id": "hm2_redcross1",
+   "type": "image",
+   "tags": [
+    "hospital",
+    "wounded"
+   ],
+   "src": "media/photos/hm2_redcross1.webp",
+   "avif": "media/photos/hm2_redcross1.avif",
+   "label": "赤十字のもとで（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Title_unknown_-_from_Under_the_Red_Cross_-_1_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Title unknown - from Under the Red Cross - 1 - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 14434,
+   "avifBytes": 16857
+  },
+  {
+   "id": "hm2_redcross2",
+   "type": "image",
+   "tags": [
+    "hospital",
+    "wounded"
+   ],
+   "src": "media/photos/hm2_redcross2.webp",
+   "avif": "media/photos/hm2_redcross2.avif",
+   "label": "赤十字のもとで（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Title_unknown_-_from_Under_the_Red_Cross_-_2_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Title unknown - from Under the Red Cross - 2 - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 37638,
+   "avifBytes": 37439
+  },
+  {
+   "id": "hm2_redcross3",
+   "type": "image",
+   "tags": [
+    "hospital"
+   ],
+   "src": "media/photos/hm2_redcross3.webp",
+   "avif": "media/photos/hm2_redcross3.avif",
+   "label": "赤十字のもとで（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Title_unknown_-_from_Under_the_Red_Cross_-_3_-_1938_-_Domon_Ken.png",
+   "rights": "Domon Ken",
+   "title": "Title unknown - from Under the Red Cross - 3 - 1938 - Domon Ken.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 21558,
+   "avifBytes": 21467
+  },
+  {
+   "id": "hm2_kasaya",
+   "type": "image",
+   "tags": [
+    "daily",
+    "home"
+   ],
+   "src": "media/photos/hm2_kasaya.webp",
+   "avif": "media/photos/hm2_kasaya.avif",
+   "label": "傘屋（1938年、土門拳）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%82%98%E5%B1%8B_%E3%81%A4%E3%81%AA%E3%81%8E_-1938_-_%E5%9C%9F%E9%96%80%E6%8B%B3.png",
+   "rights": "Domon Ken",
+   "title": "傘屋 つなぎ -1938 - 土門拳.png",
+   "ai": false,
+   "date": "1938",
+   "bytes": 38654,
+   "avifBytes": 29102
+  },
+  {
+   "id": "hm2_narita",
+   "type": "image",
+   "tags": [
+    "station",
+    "send-off",
+    "home"
+   ],
+   "src": "media/photos/hm2_narita.webp",
+   "avif": "media/photos/hm2_narita.avif",
+   "label": "成田駅（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Narita_Station_1937.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Narita Station 1937.jpg",
+   "ai": false,
+   "date": "1937",
+   "bytes": 81726,
+   "avifBytes": 56231
+  },
+  {
+   "id": "hm2_ueno46",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "station",
+    "return"
+   ],
+   "src": "media/photos/hm2_ueno46.webp",
+   "avif": "media/photos/hm2_ueno46.avif",
+   "label": "上野駅（1946年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Ueno_Station_in_1946.png",
+   "rights": "Tadahiko Hayashi",
+   "title": "Ueno Station in 1946.png",
+   "ai": false,
+   "date": "1946",
+   "bytes": 59400,
+   "avifBytes": 45529
+  },
+  {
+   "id": "hm2_orphan",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "child",
+    "bereaved"
+   ],
+   "src": "media/photos/hm2_orphan.webp",
+   "avif": "media/photos/hm2_orphan.avif",
+   "label": "上野公園の戦災孤児（1946年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_war-orphaned_boys_in_Ueno_park,_Toky%C5%8D_in_1946.png",
+   "rights": "Tadahiko Hayashi",
+   "title": "Japanese war-orphaned boys in Ueno park, Tokyō in 1946.png",
+   "ai": false,
+   "date": "1946",
+   "bytes": 40672,
+   "avifBytes": 33704
+  },
+  {
+   "id": "hm2_kokushikan",
+   "type": "image",
+   "tags": [
+    "send-off",
+    "student",
+    "home"
+   ],
+   "src": "media/photos/hm2_kokushikan.webp",
+   "avif": "media/photos/hm2_kokushikan.avif",
+   "label": "国士舘の学徒出陣（1943年12月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E5%A3%AB%E8%88%98%E5%B0%82%E9%96%80%E5%AD%A6%E6%A0%A1%E3%81%AE%E5%AD%A6%E5%BE%92%E5%87%BA%E9%99%A3%EF%BC%881943%E5%B9%B412%E6%9C%881%E6%97%A5%EF%BC%89.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "国士舘専門学校の学徒出陣（1943年12月1日）.jpg",
+   "ai": false,
+   "date": "1943-12-01",
+   "bytes": 53562,
+   "avifBytes": 47292
+  },
+  {
+   "id": "hm2_sokokai",
+   "type": "image",
+   "tags": [
+    "send-off",
+    "student",
+    "home"
+   ],
+   "src": "media/photos/hm2_sokokai.webp",
+   "avif": "media/photos/hm2_sokokai.avif",
+   "label": "慶應義塾の出陣壮行会（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E5%A1%BE%E7%94%9F%E5%87%BA%E9%99%A3%E5%A3%AE%E8%A1%8C%E4%BC%9A.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "塾生出陣壮行会.jpg",
+   "ai": false,
+   "date": "1943-11-23",
+   "bytes": 125764,
+   "avifBytes": 68392
+  },
+  {
+   "id": "nv_pearlview",
+   "type": "image",
+   "tags": [
+    "navy",
+    "pearl",
+    "airfield",
+    "front"
+   ],
+   "src": "media/photos/nv_pearlview.webp",
+   "avif": "media/photos/nv_pearlview.avif",
+   "label": "真珠湾攻撃・日本機から見た在泊艦艇（1941年12月8日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Attack_on_Pearl_Harbor_Japanese_planes_view_with_Japanese_caption.jpg",
+   "rights": "Imperial Japanese Navy",
+   "title": "Attack on Pearl Harbor Japanese planes view with Japanese caption.jpg",
+   "ai": false,
+   "date": "1941-12-07",
+   "bytes": 93408,
+   "avifBytes": 68152
+  },
+  {
+   "id": "nv_hiryu",
+   "type": "image",
+   "tags": [
+    "navy",
+    "midway",
+    "sinking",
+    "front"
+   ],
+   "src": "media/photos/nv_hiryu.webp",
+   "avif": "media/photos/nv_hiryu.avif",
+   "label": "ミッドウェー海戦で炎上する空母飛龍",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_aircraft_carrier_Hiryu_burning_on_5_June_1942_(NH_73064).jpg",
+   "rights": "Special Service Ensign Oniwa Kiyoshi",
+   "title": "Japanese aircraft carrier Hiryu burning on 5 June 1942 (NH 73064).jpg",
+   "ai": false,
+   "date": "5 June 1942date QS:P571,+1942-06-05T00:0",
+   "bytes": 43200,
+   "avifBytes": 41466
+  },
+  {
+   "id": "nv_akagi",
+   "type": "image",
+   "tags": [
+    "navy",
+    "carrier",
+    "front"
+   ],
+   "src": "media/photos/nv_akagi.webp",
+   "avif": "media/photos/nv_akagi.avif",
+   "label": "空母赤城",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_aircraft_carrier_Akagi,December_24,_1941.jpg",
+   "rights": "作者は不明だが、真珠湾攻撃後の1941年（昭和16年）12月24日に赤城艦上で撮られたものと思われる。",
+   "title": "Japanese aircraft carrier Akagi,December 24, 1941.jpg",
+   "ai": false,
+   "date": "1941-12-24",
+   "bytes": 32900,
+   "avifBytes": 29583
+  },
+  {
+   "id": "nv_yamato",
+   "type": "image",
+   "tags": [
+    "navy",
+    "sinking",
+    "front"
+   ],
+   "src": "media/photos/nv_yamato.webp",
+   "avif": "media/photos/nv_yamato.avif",
+   "label": "出撃する戦艦大和（1945年4月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Yamato-19450406-tengo.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Yamato-19450406-tengo.jpg",
+   "ai": false,
+   "date": "1945-04-06",
+   "bytes": 33976,
+   "avifBytes": 29354
+  },
+  {
+   "id": "nv_convoy",
+   "type": "image",
+   "tags": [
+    "navy",
+    "convoy",
+    "sinking",
+    "front"
+   ],
+   "src": "media/photos/nv_convoy.webp",
+   "avif": "media/photos/nv_convoy.avif",
+   "label": "潜水艦の潜望鏡が捉えた日本輸送船の撃沈",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Buyo_Maru_sinking.jpg",
+   "rights": "",
+   "title": "Buyo Maru sinking.jpg",
+   "ai": false,
+   "date": "",
+   "bytes": 46760,
+   "avifBytes": 40512
+  },
+  {
+   "id": "air_chiran",
+   "type": "image",
+   "tags": [
+    "tokko",
+    "send-off",
+    "airfield"
+   ],
+   "src": "media/photos/air_chiran.webp",
+   "avif": "media/photos/air_chiran.avif",
+   "label": "知覧高女の生徒が見送る特攻機",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Chiran_high_school_girls_wave_kamikaze_pilot.jpg",
+   "rights": "Hayakawa （早川）",
+   "title": "Chiran high school girls wave kamikaze pilot.jpg",
+   "ai": false,
+   "date": "Taken on 12 April 1945",
+   "bytes": 79022,
+   "avifBytes": 55746
+  },
+  {
+   "id": "air_72shinbu",
+   "type": "image",
+   "tags": [
+    "tokko",
+    "airfield"
+   ],
+   "src": "media/photos/air_72shinbu.webp",
+   "avif": "media/photos/air_72shinbu.avif",
+   "label": "第72振武隊の特攻隊員（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:72nd_Shinbu_1945_Kamikaze.jpg",
+   "rights": "uncredited",
+   "title": "72nd Shinbu 1945 Kamikaze.jpg",
+   "ai": false,
+   "date": "1945-05-26",
+   "bytes": 64548,
+   "avifBytes": 42082
+  },
+  {
+   "id": "air_choshi",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "women",
+    "mobilization"
+   ],
+   "src": "media/photos/air_choshi.webp",
+   "avif": "media/photos/air_choshi.avif",
+   "label": "銚子の女子挺身隊と九九式襲撃機",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Choshi_Joshi_Teishintai_with_Mitsubishi_Ki-51.jpg",
+   "rights": "Unknown photographer, Central Union of Agricultural Cooperatives",
+   "title": "Choshi Joshi Teishintai with Mitsubishi Ki-51.jpg",
+   "ai": false,
+   "date": "before 1945date QS:P,+1945-00-00T00:00:0",
+   "bytes": 63158,
+   "avifBytes": 45563
+  },
+  {
+   "id": "air_zero",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "navy",
+    "pearl",
+    "front"
+   ],
+   "src": "media/photos/air_zero.webp",
+   "avif": "media/photos/air_zero.avif",
+   "label": "空母翔鶴から真珠湾へ発艦する艦上機（1941年12月8日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_plane_leaves_Shokaku-Pearl_Harbor.jpg",
+   "rights": "Official U.S. Navy Photograph, National Archives Collection.",
+   "title": "Japanese plane leaves Shokaku-Pearl Harbor.jpg",
+   "ai": false,
+   "date": "1941-12-07",
+   "bytes": 63168,
+   "avifBytes": 50524
+  },
+  {
+   "id": "nv_akagideck",
+   "type": "image",
+   "tags": [
+    "navy",
+    "carrier",
+    "secret",
+    "front"
+   ],
+   "src": "media/photos/nv_akagideck.webp",
+   "avif": "media/photos/nv_akagideck.avif",
+   "label": "単冠湾の空母赤城飛行甲板（1941年11月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Akagi_flight_deck_Hitokappu_Bay.jpg",
+   "rights": "Not stated",
+   "title": "Akagi flight deck Hitokappu Bay.jpg",
+   "ai": false,
+   "date": "1941-11",
+   "bytes": 37968,
+   "avifBytes": 29106
+  },
+  {
+   "id": "nv_shokakudeck",
+   "type": "image",
+   "tags": [
+    "navy",
+    "carrier",
+    "pearl",
+    "front"
+   ],
+   "src": "media/photos/nv_shokakudeck.webp",
+   "avif": "media/photos/nv_shokakudeck.avif",
+   "label": "真珠湾攻撃当日朝の空母甲板",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_Carrier_deck_on_morning_of_attack_on_Pearl_Harbor_Nara_80-G-30549.jpg",
+   "rights": "Unknown authorUnknown author",
+   "title": "Japanese Carrier deck on morning of attack on Pearl Harbor Nara 80-G-30549.jpg",
+   "ai": false,
+   "date": "1941-12-07",
+   "bytes": 17476,
+   "avifBytes": 18830
+  },
+  {
+   "id": "air_shokakupilots",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "navy",
+    "pilot"
+   ],
+   "src": "media/photos/air_shokakupilots.webp",
+   "avif": "media/photos/air_shokakupilots.avif",
+   "label": "翔鶴の戦闘機搭乗員（1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Shokaku_fighter_pilots_1941.jpg",
+   "rights": "Yasujiro Abe",
+   "title": "Shokaku fighter pilots 1941.jpg",
+   "ai": false,
+   "date": "October or November 1941",
+   "bytes": 118532,
+   "avifBytes": 61911
   },
   {
    "id": "real_cn_bombing",

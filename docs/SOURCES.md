@@ -45,8 +45,9 @@
 | clip_navy | clip | media/clips/navy.mp4 | 艦上（AI再現・静止画から生成した6秒の動き） | AI生成画像（本プロジェクト用・権利は制作者に帰属） | Grok Bot GenerateImage（2026-10生成） |
 | clip_letters | clip | media/clips/letters.mp4 | 手紙（AI再現・静止画から生成した6秒の動き） | AI生成画像（本プロジェクト用・権利は制作者に帰属） | Grok Bot GenerateImage（2026-10生成） |
 
-- 画像はすべてAI生成の情景再現で、画面上に「AI再現 イメージ・実在の人物ではありません」と表示。実在人物の肖像は生成していない。
-- 動画クリップは上記静止画からffmpegで作ったパン/ズーム（各1MB未満）。
+- 上表のAI生成画像・クリップ（計21点）は、該当する実写がない場面にだけ残し、画面に「AI再現 イメージ・実在の人物ではありません」と表示。実在人物の肖像は生成していない。AIクリップは静止画からffmpegで作ったパン/ズーム。
+- 実写画像174点・ニュース映画クリップ10点は Wikimedia Commons 等のパブリックドメイン（日本の旧著作権法による保護期間満了の写真、米国政府著作物など）または明示ライセンスのもの。個々の出典・作者・ライセンスは自動生成の `docs/MEDIA_SOURCES.md` と `content/media-real.json` に記録。遺体が写る写真・透かし入り画像・有料素材は使っていない。
+- 場面への割り当ては `scripts/assign-media.mjs`（キーワード＋手作業の修正表 HAND、1枚4回・1クリップ6回まで）が `content/media-assign.json` に出力する。
 - フォント：システムフォントのみ（同梱なし）。効果音：WebAudioでその場で合成（音源ファイルなし）。
 - npm依存はMITなどのOSSライセンス（`node_modules/*/LICENSE`）。
 
