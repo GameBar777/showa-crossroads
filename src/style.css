@@ -88,3 +88,4 @@ textarea{width:100%;min-height:70px;background:#120f0c;color:var(--ink);border:1
 body.calm *,body.calm *::after{animation:none!important;transition:none!important}body.calm .ln{opacity:1}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01s!important}.ln{opacity:1}}
 @media (min-width:900px){.play{max-width:760px}.stage{padding:16px 20px}.choices{grid-template-columns:1fr 1fr;padding:12px 20px}}
+.vol{display:flex;align-items:center;gap:.6em;margin:.4em 0}.vol input{flex:1}

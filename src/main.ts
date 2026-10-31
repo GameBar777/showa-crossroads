@@ -1,7 +1,9 @@
 import './style.css';
 import { D, newGame, advance, choose, postTurn, succeed, serialize, deserialize, KEY, compareTimeline, age, rankName, fill, State, Card, Mode } from './engine/game';
 import { fmtJa, fmtShort, yearOf } from './engine/date';
-import { sfx, sound, setSound } from './ui/audio';
+import { sfx, sound, setSound, setVolume, setMood, playScene, stopScene } from './ui/audio';
+import { pickSound } from './ui/soundmap';
+import { AUDIO_CREDITS } from './ui/audio-credits';
 import { loadManifest, pickAsset, pictureHtml, clipHtml, url, manifestNow } from './ui/media';
 
 const app = document.getElementById('app')!;
@@ -36,12 +38,15 @@ function title() {
       ${saved ? `<button class="big" id="cont">▶ 続きから<small>${esc(saved.p.name)}・${fmtShort(saved.date)}</small></button>` : ''}
       <button class="big primary" id="new">新しく始める</button>
       <button class="ghost" id="about">この作品について・出典</button>
+      <button class="ghost" id="snd0">${sound.on ? '🔊 音あり（タップで消音）' : '🔇 音なし（タップでBGM・効果音を出す）'}</button>
     </div>
     <p class="fine">史実は出典つき。改変は明示。実在人物の台詞は「創作」と表示。<br>戦争の加害と被害を、誇張も美化もせずに描きます。</p>
   </main>`;
   $('#new').onclick = () => { sfx.tap(); setup(); };
   if (saved) $('#cont').onclick = () => { sfx.tap(); st = saved; play(); };
   $('#about').onclick = () => panel('about');
+  $('#snd0').onclick = () => { setSound(!sound.on); setMood('title'); title(); };
+  stopScene(); setMood('title');
 }
 
 function setup(mode: Mode = 'civ', histMode: 'branch' | 'fixed' = 'branch') {
@@ -76,7 +81,7 @@ function hud() {
     <nav class="tools">
       <button data-p="timeline" title="年表">📜<span>年表</span></button><button data-p="map" title="地図">🗺️<span>地図</span></button>
       <button data-p="people" title="人物">👥<span>人物</span></button><button data-p="family" title="家族">🏮<span>家族</span></button>
-      <button data-p="glossary" title="用語">📖<span>用語</span></button><button data-p="save" title="保存">💾<span>保存</span></button><button data-p="settings" title="設定">⚙️<span>設定</span></button>
+      <button data-p="glossary" title="用語">📖<span>用語</span></button><button data-p="save" title="保存">💾<span>保存</span></button><button data-p="settings" title="設定">⚙️<span>設定</span></button><button id="sndq" title="音">${sound.on ? '🔊' : '🔇'}<span>音</span></button>
     </nav></header>`;
 }
 const meter = (l: string, v: number, inv = false) => `<span class="m ${(inv ? v > 65 : v < 30) ? 'low' : ''}" title="${l} ${v}"><i>${l}</i><b style="--v:${Math.max(0, Math.min(100, v))}%"></b></span>`;
@@ -108,6 +113,7 @@ function play() {
   const c = advance(st); save();
   const kind = c.kind === 'event' && c.ev?.letter ? 'letter' : c.kind;
   if (kind === 'news') sfx.news(); else if (kind === 'flash') sfx.flash(); else if (kind === 'death') sfx.death();
+  playScene(pickSound({ ...c, letter: kind === 'letter' }, st.mode, st.date));
   let body = '';
   if (kind === 'news') {
     const h = c.hist;
@@ -161,7 +167,10 @@ function showResult(c: Card) {
 }
 
 // ---------- panels ----------
-function bindTools() { app.querySelectorAll<HTMLElement>('.tools button').forEach(b => (b.onclick = () => { sfx.tap(); panel(b.dataset.p!); })); }
+function bindTools() {
+  app.querySelectorAll<HTMLElement>('.tools button[data-p]').forEach(b => (b.onclick = () => { sfx.tap(); panel(b.dataset.p!); }));
+  const q = app.querySelector<HTMLElement>('#sndq'); if (q) q.onclick = () => { setSound(!sound.on); q.firstChild!.textContent = sound.on ? '🔊' : '🔇'; };
+}
 function panel(kind: string) {
   const o = document.createElement('div'); o.className = 'overlay'; let h = '';
   if (kind === 'timeline' && st) {
@@ -191,7 +200,7 @@ function panel(kind: string) {
       <textarea id="txt" placeholder="またはセーブデータを貼り付け"></textarea><button id="imptxt">貼り付けたデータを読み込む</button><p id="msg" role="status"></p>
       <button class="ghost danger" id="del">この端末のセーブを消してタイトルへ</button>`;
   } else if (kind === 'settings') {
-    h = `<h2>設定</h2><label class="toggle"><input type="checkbox" id="snd" ${sound.on ? 'checked' : ''}> 効果音</label><label class="toggle"><input type="checkbox" id="rm" ${document.body.classList.contains('calm') ? 'checked' : ''}> 演出を控えめに</label>
+    h = `<h2>設定</h2><label class="toggle"><input type="checkbox" id="snd" ${sound.on ? 'checked' : ''}> 音（BGM・効果音）</label><label class="vol">BGM <input type="range" id="vb" min="0" max="1" step="0.05" value="${sound.bgm}"></label><label class="vol">効果音 <input type="range" id="vs" min="0" max="1" step="0.05" value="${sound.sfx}"></label><label class="toggle"><input type="checkbox" id="rm" ${document.body.classList.contains('calm') ? 'checked' : ''}> 演出を控えめに</label>
       <p class="fine">史実モード：${st ? (st.histMode === 'fixed' ? '史実固定' : '改変あり（国家モードの決断で分岐）') : '-'}</p><button class="ghost" id="ab">この作品について・出典</button><button class="ghost" id="ttl">タイトルへ戻る</button>`;
   } else if (kind === 'about') {
     const srcs = Object.values<any>(D.sources);
@@ -199,6 +208,7 @@ function panel(kind: string) {
       <ul class="rules"><li><span class="tag real">史実</span>出来事は日付と出典つき。解釈に議論があるものは「論争あり」と明記。</li><li><span class="tag alt">改変</span>もしもの分岐は、原因となった決断と共に表示。</li><li><em class="cre">創作</em>実在人物の台詞は創作であることを明記。肖像は生成しません。</li><li><b>AI再現</b>画像はAIで作ったイメージで、実在の写真ではありません。</li><li>日本の加害、アジア・太平洋の人々の被害、銃後の苦しみを、美化せずに描きます。</li></ul>
       <h3>主な出典</h3><ul class="srcs">${srcs.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><small>${esc(s.publisher)}</small></li>`).join('')}</ul>
       <h3>写真・映像のクレジット</h3><p class="fine">実写真・実映像はWikimedia Commons等のパブリックドメイン／自由ライセンス素材です（一覧は docs/MEDIA_SOURCES.md）。AI再現素材は架空のイメージです。</p><ul class="srcs credits">${manifestNow().filter(m => !m.ai).map(m => `<li><a href="${esc(m.source)}" target="_blank" rel="noopener">${m.type === 'clip' ? '🎞 ' : ''}${esc(m.label)}</a><small>${esc(m.rights || '')}・${esc(m.license)}</small></li>`).join('')}</ul>
+      <h3>音楽・効果音のクレジット</h3><p class="fine">録音素材はWikimedia CommonsのパブリックドメインまたはCC BY 4.0素材（一覧は docs/MEDIA_SOURCES.md）。「自作合成」は本作のために手続き的に合成したオリジナル音源（CC0）です。</p><ul class="srcs credits">${AUDIO_CREDITS.map(a => `<li>${a.url ? `<a href="${esc(a.url)}" target="_blank" rel="noopener">${esc(a.label)}</a>` : esc(a.label)}<small>${esc(a.by)}・${esc(a.license)}</small></li>`).join('')}</ul>
       <p class="fine">AI再現素材: ${manifestNow().filter(m => m.ai).length}点（画面上に「AI再現」と表示）</p>
       <p class="fine">v${esc(D.version)}・内容 ${D.hist.length}史実/改変記録・${D.events.length}イベント</p>`;
   }
@@ -209,7 +219,9 @@ function panel(kind: string) {
   $('.close', o).onclick = close;
   const q = (s: string) => o.querySelector(s) as HTMLElement | null;
   q('#again') && (q('#again')!.onclick = () => { close(); localStorage.removeItem(KEY); st = null; setup(); });
-  q('#snd') && ((q('#snd') as HTMLInputElement).onchange = e => setSound((e.target as HTMLInputElement).checked));
+  q('#snd') && ((q('#snd') as HTMLInputElement).onchange = e => { setSound((e.target as HTMLInputElement).checked); const b = document.querySelector('#sndq'); if (b) b.firstChild!.textContent = sound.on ? '🔊' : '🔇'; });
+  q('#vb') && ((q('#vb') as HTMLInputElement).oninput = e => setVolume('bgm', +(e.target as HTMLInputElement).value));
+  q('#vs') && ((q('#vs') as HTMLInputElement).oninput = e => setVolume('sfx', +(e.target as HTMLInputElement).value));
   q('#rm') && ((q('#rm') as HTMLInputElement).onchange = e => { document.body.classList.toggle('calm', (e.target as HTMLInputElement).checked); localStorage.setItem('kiro10.calm', (e.target as HTMLInputElement).checked ? '1' : '0'); });
   q('#ab') && (q('#ab')!.onclick = () => { close(); panel('about'); });
   q('#ttl') && (q('#ttl')!.onclick = () => { close(); title(); });

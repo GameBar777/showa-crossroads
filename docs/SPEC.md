@@ -21,3 +21,10 @@ localStorage `kiro10.save`（version付き、migrate()で旧版変換、未来�
 `content/almanac-lib.mjs`。`@日付|題|史実/架空/改変|出典|not=…;flags=…;branch=…` で、`--` で区切った3〜4段の場面を書く。日付窓はモードの1ステップ以上（国家3か月、他2か月）。層は一般（ac, ad）、軍人・指揮官（am, an 海軍, aw 陸軍, al 故郷の便り）、国家（as, at, au, av）。人物の台詞は創作で（創作）と明記し、実在人物の内心は描かない。
 ## メディア変換
 `scripts/convert-media.py`：Pillow で ICC・EXIF を除いてから、ffmpeg で WebP/AVIF に変換（-map_metadata -1）。出力に ICC が残っていれば失敗する。
+
+## 音（BGM・効果音）
+
+- `src/ui/soundmap.ts`：カード→音の割り当て。優先順位は (1) イベント/記録の `sfx` フィールドと `EXPLICIT` 表（真珠湾・B-29初空襲・沖縄・終戦など）、(2) 本文・題・タグへのキーワード規則（銃撃・機銃・戦闘機・空戦・爆撃・高射砲・砲撃・サイレン・船・汽車・雨・万歳・ラジオ・手紙・寺の鐘・虫・足音・鼓動…）最大3つ、(3) 美術タグ、(4) 季節（夏=蝉、梅雨=雨、秋=鈴虫…）。BGMムード（title/home/night/tension/battle/grief、時期限定で gunkan・kimigayo）も同時に決める。
+- `src/ui/audio.ts`：BGMは2本の `<audio>` をムード変化時に1.5–2秒でクロスフェード。SFXは環境音ループ（フェードイン）と単発を時間差で再生、次のカードでフェードアウト。`preload=none` で遅延取得。Ogg/Opus非対応ブラウザはMP3。
+- 既定は消音（自動再生ポリシー順守）。タイトルの「🔇 音なし」ボタン・HUDの🔊/🔇・設定（オン/オフ、BGM音量、効果音音量）で切替。`localStorage`（`kiro10.sound` / `kiro10.vol`）に保存。オンの状態で再訪した場合は最初の操作（pointerdown/keydown）で再生開始。タブ非表示で一時停止。
+- 生成：`python3 scripts/synth-audio.py OUT` → `scripts/encode-audio.sh`。検証：`node scripts/audio-check.mjs URL`（全102ファイルのHTTPと `<audio>` canplaythrough、実プレイでのメディアエラー0件）。

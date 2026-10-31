@@ -212,3 +212,34 @@
 - clip_airraid: 空襲（AI再現・静止画から生成した6秒の動き）
 - clip_navy: 艦上（AI再現・静止画から生成した6秒の動き）
 - clip_letters: 手紙（AI再現・静止画から生成した6秒の動き）
+
+
+## 音楽・効果音（2026-10-31 追加）
+
+配置: `public/audio/{bgm,sfx}/<id>.ogg`（Ogg/Opus, 主）と `.mp3`（フォールバック）。メタデータは全削除（`scripts/encode-audio.sh`、ffmpeg `-map_metadata -1`、ラウドネス正規化 BGM −20 LUFS / SFX −18 LUFS）。遅延読み込み（`preload=none`、場面で必要になった時だけ取得）。
+
+### 録音素材（Wikimedia Commons）
+
+| ID | 内容 | 作者・演奏 | ライセンス | 出典 |
+|---|---|---|---|---|
+| whistle | 蒸気汽笛 | Work With Sounds / Konrad Gutkowski | CC BY 4.0 | [WWS SteamWhistle.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_SteamWhistle.ogg) |
+| train | 蒸気機関車の走行音（冒頭20秒） | Work With Sounds / Konrad Gutkowski | CC BY 4.0 | [WWS Steamlocomotive.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_Steamlocomotive.ogg) |
+| typewriter | タイプライター（冒頭10秒） | Work With Sounds / Konrad Gutkowski | CC BY 4.0 | [WWS Typewriter.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_Typewriter.ogg) |
+| teleprinter | テレプリンター（5–15秒） | Work With Sounds / Konrad Gutkowski | CC BY 4.0 | [WWS Teleprintertyping.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_Teleprintertyping.ogg) |
+| shipbell | 船の号鐘 | Work With Sounds / Museum of Municipal Engineering | CC BY 4.0 | [WWS ShipSodekshipsbell.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_ShipSodekshipsbell.ogg) |
+| horn | 船の汽笛 | Work With Sounds / Museum of Municipal Engineering | CC BY 4.0 | [WWS ShipSodekshipssiren.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_ShipSodekshipssiren.ogg) |
+| siren | 空襲警報サイレン（手回し式サイレンの録音、2–24秒を使用） | Work With Sounds / Technical Museum of Slovenia | CC BY 4.0 | [WWS Handcranksiren.ogg](https://commons.wikimedia.org/wiki/File%3AWWS_Handcranksiren.ogg) |
+| bgm/gunkan | 「軍艦行進曲」1913年録音（BGM） | 作曲 瀬戸口藤吉／歌 納所文子（1913年録音） | Public domain | [Gunkan kōshinkyoku (1913).ogg](https://commons.wikimedia.org/wiki/File%3AGunkan_k%C5%8Dshinkyoku_%281913%29.ogg) |
+| bgm/kimigayo | 「君が代」器楽（米海軍軍楽隊、BGM） | United States Navy Band | Public domain | [Kimi ga Yo instrumental.ogg](https://commons.wikimedia.org/wiki/File%3AKimi_ga_Yo_instrumental.ogg) |
+| cicada | 蝉の声（冒頭20秒） | Shyamal | CC0 | [Cicada 20200619.wav](https://commons.wikimedia.org/wiki/File%3ACicada_20200619.wav) |
+
+CC BY 4.0 の Work With Sounds 素材は、ゲーム内クレジット（この作品について → 音楽・効果音のクレジット）と本表で作者表示しています。改変（切り出し・音量正規化・再エンコード）あり。
+「軍艦行進曲」は1913年の録音（作曲者 瀬戸口藤吉 1941年没、作詞者 鳥山啓 1914年没）でパブリックドメイン。「君が代」器楽は米国海軍軍楽隊（米国連邦政府の著作物）でパブリックドメイン。
+玉音放送の実録音は使っていません（ラジオ雑音・時報風チャイムは自作合成）。
+
+### 自作合成（本作オリジナル、CC0）
+
+`scripts/synth-audio.py`（numpy/scipy、乱数シード固定で再現可能）で生成。実在の録音・楽曲のサンプリングや模倣はしていません（ラッパ音型も実在の軍隊信号ではないオリジナル）。
+
+- BGM（6曲）: battle（58秒ループ）, grief（76秒ループ）, home（69秒ループ）, night（69秒ループ）, tension（61秒ループ）, title（76秒ループ）
+- 効果音（35種）: artillery, bell, bombers, bombing, bugle, cheer, chime, clock, crickets, crowd, dogfight, door, explosion, fighter, fire, firefight, flak, furin, heartbeat, march, mg, paper, rain, rifle, ship, static, steps, steps_in, sting, suzumushi, taiko, telegraph, thunder, waves, wind
