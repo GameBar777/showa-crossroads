@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-10-30T15:28:29.102Z",
+  "generatedAt": "2026-10-31T00:14:55.193Z",
   "goal": 10000,
   "content": {
-    "records": 498,
+    "records": 596,
     "hist": 97,
-    "events": 188,
+    "events": 276,
     "people": 35,
     "items": 17,
-    "speakers": 35,
+    "speakers": 45,
     "sources": 14,
     "settings": {
       "backgrounds": 10,
@@ -18,21 +18,21 @@
       "prices": 12,
       "glossary": 35
     },
-    "dialogueLines": 422,
-    "choices": 364,
-    "referenced": 188,
-    "reachedInAutoplay": 269,
-    "eventsReached": 184,
-    "histReached": 85,
-    "unimplementedTowardGoal": 9502,
-    "progress": 4.98
+    "dialogueLines": 681,
+    "choices": 527,
+    "referenced": 276,
+    "reachedInAutoplay": 349,
+    "eventsReached": 263,
+    "histReached": 86,
+    "unimplementedTowardGoal": 9404,
+    "progress": 5.96
   },
   "media": {
-    "images": 18,
-    "clips": 3,
-    "total": 21,
-    "bytes": 1200582,
-    "unimplementedTowardGoal": 9979,
-    "progress": 0.21
+    "images": 110,
+    "clips": 13,
+    "total": 123,
+    "bytes": 10852095,
+    "unimplementedTowardGoal": 9877,
+    "progress": 1.23
   }
 }

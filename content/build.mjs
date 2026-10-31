@@ -5,6 +5,8 @@ import { HIST, ALT } from './hist.mjs';
 import { ROMANCE } from './romance.mjs';
 import { CIV } from './civ.mjs';
 import { MIL } from './mil.mjs';
+import { CHINA, MANCHU, PACIFIC, PHIL, FRONT_TAIL } from './front.mjs';
+import { HOME_CHAIN, HOME_POOL } from './home.mjs';
 import { CMD } from './cmd.mjs';
 import { STATE } from './state.mjs';
 import { POST } from './post.mjs';
@@ -22,6 +24,7 @@ export const SPEAKERS = {
   farmer_cn: ['中国人の農民', '農'], worker_kr: ['朝鮮出身の若者', '朝'], teacher_kr: ['朝鮮出身の教員', '朝'], friend_tw: ['台湾の友人', '台'], woman_ph: ['フィリピンの女性', '比'],
   mother_f: ['戦友の母', '母'], witness: ['元捕虜の証人', '証'], orphan: ['靴磨きの少年', '孤'], guard_kr: ['朝鮮出身の元軍属', '朝'], okinawan: ['沖縄出身の人', '沖'],
   child_ch: ['侍従の息子', '息'], radio: ['ラジオ', '📻'],
+  kempei: ['憲兵', '憲'], tonari: ['隣組長', '組'], postman: ['郵便配達', '〒'], clerk: ['役場の兵事係', '兵'], nurse: ['看護婦', '看'], comrade: ['戦友', '戦'], sister: ['妹', '妹'], villager_cn: ['中国の老人', '老'], soldier_us: ['米兵', '米'], settler: ['開拓団の女性', '拓'],
 };
 const STAT = ['hp', 'yen', 'spirit', 'bond', 'rep', 'consc'];
 const USTAT = ['men', 'morale', 'supply', 'train', 'fatigue', 'trust'];
@@ -60,10 +63,12 @@ for (const h of histAll) {
   if (h.hist === '改変' && (!h.cause || !(h.flags || []).length)) err(`${h.id}: 改変 needs cause+flags`);
   for (const l of h.news || []) if (!SPEAKERS[l.sp] && !REAL.find(p => p.id === l.sp)) err(`${h.id}: unknown speaker ${l.sp}`);
 }
-const events = [...ROMANCE, ...CIV, ...MIL, ...CMD, ...STATE, ...POST];
+const events = [...CHINA, ...MANCHU, ...PACIFIC, ...PHIL, ...HOME_CHAIN, ...ROMANCE, ...CIV, ...HOME_POOL, ...MIL, ...FRONT_TAIL, ...CMD, ...STATE, ...POST];
 const ids = new Set();
 for (const r of [...histAll, ...events, ...REAL, ...REGIONS, ...PRICES, ...GLOSSARY]) { if (ids.has(r.id)) err(`duplicate id ${r.id}`); ids.add(r.id); }
 const evIds = new Set(events.map(e => e.id)), hIds = new Set(histAll.map(h => h.id));
+const MEDIA_REAL = JSON.parse(fs.readFileSync(new URL('./media-real.json', import.meta.url), 'utf8'));
+const PHOTO_KEYS = new Set(MEDIA_REAL.photos.map(p => p.key)), CLIP_KEYS = new Set(MEDIA_REAL.clips.map(p => p.key));
 const ARTS = ['title', 'village', 'factory', 'station', 'barracks', 'navy', 'airfield', 'refugees', 'airraid', 'letters', 'council', 'hq', 'postwar', 'wedding', 'family', 'hospital', 'ration', 'couple'];
 for (const e of events) {
   const c = e.cond; c.modes ||= ['civ', 'mil', 'cmd', 'state'];
@@ -72,6 +77,8 @@ for (const e of events) {
   if (e.on && !hIds.has(e.on)) err(`${e.id}: on unknown hist ${e.on}`);
   if (c.on) { e.on = c.on; delete c.on; if (!hIds.has(e.on)) err(`${e.id}: on unknown hist ${e.on}`); }
   if (!ARTS.includes(e.art)) err(`${e.id}: bad art ${e.art}`);
+  if (e.img && !PHOTO_KEYS.has(e.img)) err(`${e.id}: unknown img ${e.img}`);
+  if (e.clip && !CLIP_KEYS.has(e.clip)) err(`${e.id}: unknown clip ${e.clip}`);
   for (const l of e.lines) if (!SPEAKERS[l.sp]) err(`${e.id}: unknown speaker ${l.sp}`);
   if (!e.choices?.length) err(`${e.id}: no choices`);
   e.sources = srcObj(e.sources, e.id);

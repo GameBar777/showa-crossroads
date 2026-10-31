@@ -125,8 +125,8 @@ neighbor|……負けたのか。`, [
   E('civ_husband_called', 'family', { modes: civ, sex: 'f', flags: ['married'], not: ['partner_away', 'partner_dead'], from: '1937-08', w: 4 }, `夕方、役場の兵事係が来た。赤い紙。
 partner|……来たか。
 narr|{partner}は、意外なほど落ち着いて茶を飲み干した。`, [
-    C('🧵', '千人針を集めに町角に立つ', 'safe', 'r.partner+10 item:senninbari_made +partner_away', { later: [30, 'civ_husband_fate'] }),
-    C('📷', '写真館で家族写真を撮る', 'cost', 'yen-6 item:family_photo +partner_away', { later: [30, 'civ_husband_fate'] }),
+    C('🧵', '千人針を集めに町角に立つ', 'safe', 'r.partner+10 item:senninbari_made +partner_away', { later: [0, 'hw_01'] }),
+    C('📷', '写真館で家族写真を撮る', 'cost', 'yen-6 item:family_photo +partner_away', { later: [0, 'hw_01'] }),
   ], { art: 'station', note: '召集令状（いわゆる赤紙）は在郷軍人（予備役・後備役・補充兵役）に対して出された（史実）。' }),
   E('civ_letter_from_front', 'letter', { modes: civ, flags: ['partner_away'], w: 7, letter: true }, `partner|拝啓
 partner|こちらは元気にしている。食事も十分だ。

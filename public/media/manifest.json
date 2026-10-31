@@ -1,6 +1,6 @@
 {
- "version": 1,
- "generated": "2026-10-30T15:26:12.139Z",
+ "version": 2,
+ "generated": "2026-10-31T00:14:52.216Z",
  "assets": [
   {
    "id": "img_title",
@@ -381,6 +381,2043 @@
    "muted": true,
    "loop": true,
    "seconds": 6
+  },
+  {
+   "id": "cn_landing",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "landing"
+   ],
+   "src": "media/photos/cn_landing.webp",
+   "avif": "media/photos/cn_landing.avif",
+   "label": "上海戦線・白茆口への上陸（1937年11月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_landing_at_Baimaokou,_November_1937.png",
+   "rights": "作者不詳",
+   "title": "Japanese landing at Baimaokou, November 1937.png",
+   "ai": false,
+   "date": "1937-11",
+   "bytes": 19618,
+   "avifBytes": 14471
+  },
+  {
+   "id": "cn_sihang_north",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "combat"
+   ],
+   "src": "media/photos/cn_sihang_north.webp",
+   "avif": "media/photos/cn_sihang_north.avif",
+   "label": "上海・四行倉庫北方の日本兵（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:JapanesesoldiersnorthofSihang.png",
+   "rights": "作者不詳",
+   "title": "JapanesesoldiersnorthofSihang.png",
+   "ai": false,
+   "date": "1937",
+   "bytes": 44542,
+   "avifBytes": 34069
+  },
+  {
+   "id": "cn_zhabei_fire",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "fire"
+   ],
+   "src": "media/photos/cn_zhabei_fire.webp",
+   "avif": "media/photos/cn_zhabei_fire.avif",
+   "label": "炎上する上海・閘北（1937年10月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Shanghai1937city_zhabei_fire.jpg",
+   "rights": "作者不詳",
+   "title": "Shanghai1937city zhabei fire.jpg",
+   "ai": false,
+   "date": "26-27 October 1937",
+   "bytes": 50430,
+   "avifBytes": 28596
+  },
+  {
+   "id": "cn_north_station",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "ruins"
+   ],
+   "src": "media/photos/cn_north_station.webp",
+   "avif": "media/photos/cn_north_station.avif",
+   "label": "戦火の上海北駅（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Shanghai_North_Railway_Station.jpg",
+   "rights": "Anonymous作者不詳",
+   "title": "Shanghai North Railway Station.jpg",
+   "ai": false,
+   "date": "1937",
+   "bytes": 56852,
+   "avifBytes": 36413
+  },
+  {
+   "id": "cn_refugees",
+   "type": "image",
+   "tags": [
+    "refugees",
+    "china",
+    "civilian",
+    "front"
+   ],
+   "src": "media/photos/cn_refugees.webp",
+   "avif": "media/photos/cn_refugees.avif",
+   "label": "租界へ逃れる上海の市民（1937年9月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Citizens_of_Shanghai_fleeing_into_Shanghai_International_Settlement_-_Battle_of_Shanghai_(1937).png",
+   "rights": "作者不詳",
+   "title": "Citizens of Shanghai fleeing into Shanghai International Settlement - Battle of Shanghai (1937).png",
+   "ai": false,
+   "date": "1937-09",
+   "bytes": 64128,
+   "avifBytes": 39387
+  },
+  {
+   "id": "cn_baoshan",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "combat"
+   ],
+   "src": "media/photos/cn_baoshan.webp",
+   "avif": "media/photos/cn_baoshan.avif",
+   "label": "宝山付近の戦闘（1937年・朝日新聞撮影）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Baoshan1937-Asahi-01.jpg",
+   "rights": "Tamaki Kumasaki",
+   "title": "Baoshan1937-Asahi-01.jpg",
+   "ai": false,
+   "date": "1937-10-14",
+   "bytes": 43676,
+   "avifBytes": 33600
+  },
+  {
+   "id": "cn_suzhou",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "creek"
+   ],
+   "src": "media/photos/cn_suzhou.webp",
+   "avif": "media/photos/cn_suzhou.avif",
+   "label": "蘇州河の戦い（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Shanghai1937IJA_suzhou_river_casualty.jpg",
+   "rights": "作者不詳",
+   "title": "Shanghai1937IJA suzhou river casualty.jpg",
+   "ai": false,
+   "date": "1930sdate QS:P,+1930-00-00T00:00:00Z/8",
+   "bytes": 12740,
+   "avifBytes": 10278
+  },
+  {
+   "id": "cn_railway",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "bombing"
+   ],
+   "src": "media/photos/cn_railway.webp",
+   "avif": "media/photos/cn_railway.avif",
+   "label": "鉄道への爆撃（1938年・徐州作戦期）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Bombing_a_chinese_railway.jpg",
+   "rights": "ROC reporter",
+   "title": "Bombing a chinese railway.jpg",
+   "ai": false,
+   "date": "1938",
+   "bytes": 17100,
+   "avifBytes": 12656
+  },
+  {
+   "id": "cn_taierzhuang",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "defeat"
+   ],
+   "src": "media/photos/cn_taierzhuang.webp",
+   "avif": "media/photos/cn_taierzhuang.avif",
+   "label": "台児荘付近に残された日本軍トラック（1938年4月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:TaierzhuangBattlephoto.jpg",
+   "rights": "Robert Capa",
+   "title": "TaierzhuangBattlephoto.jpg",
+   "ai": false,
+   "date": "April 1938",
+   "bytes": 44620,
+   "avifBytes": 31048
+  },
+  {
+   "id": "cn_gasmask",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "gas"
+   ],
+   "src": "media/photos/cn_gasmask.webp",
+   "avif": "media/photos/cn_gasmask.avif",
+   "label": "防毒面を着けた砲兵（長沙付近・1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_artillery_soldiers_with_gas_masks,_Changsha,_1941.jpg",
+   "rights": "Unknown photographer, Cabinet Information Bureau, published by the Cabinet Printing Bureau of the Empire of Japan",
+   "title": "Japanese artillery soldiers with gas masks, Changsha, 1941.jpg",
+   "ai": false,
+   "date": "1941-10-08",
+   "bytes": 21504,
+   "avifBytes": 14411
+  },
+  {
+   "id": "cn_smokeflag",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "march"
+   ],
+   "src": "media/photos/cn_smokeflag.webp",
+   "avif": "media/photos/cn_smokeflag.avif",
+   "label": "煙幕の中を進む兵（湖南戦線・1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Soldier_with_flag_detail_on_8_October_1941,_Smoke_screen_at_the_Hunan_Front_near_Changsha,_%E6%97%A5%E6%9C%AC%E8%AA%9E_%E9%95%B7%E6%B2%99%E8%BF%91%E9%83%8A%E6%B9%96%E5%8D%97%E6%88%B0%E7%B7%9A%E3%81%AE%E7%85%99%E5%B9%95%E3%80%8E%E5%AF%AB%E7%9C%9E%E9%80%B1%E5%A0%B1%E3%80%8F%E7%AC%AC%E7%99%BE%E5%85%AB%E5%8D%81%E4%B9%9D%E8%99%9F_(%E6%98%AD%E5%92%8C%E5%8D%81%E5%85%AD%E5%B9%B4%E5%8D%81%E6%9C%88%E5%85%AB%E6%97%A5,_Shashin_Shuho_No_189_(cropped).jpg",
+   "rights": "Photographer: Unknown, Cabinet Information Bureau, published by the Cabinet Printing Bureau of the Empire of Japan",
+   "title": "Soldier with flag detail on 8 October 1941, Smoke screen at the Hunan Front near Changsha, 日本語 長沙近郊湖南戰線の煙幕『寫眞週報』第百八十九號 (昭和十六年十月八日, Shashin Shuho No 189 (cropped).jpg",
+   "ai": false,
+   "date": "1941-10-08",
+   "bytes": 114258,
+   "avifBytes": 58329
+  },
+  {
+   "id": "cn_snlf",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "navy"
+   ],
+   "src": "media/photos/cn_snlf.webp",
+   "avif": "media/photos/cn_snlf.avif",
+   "label": "中国大陸の海軍陸戦隊（1939年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:China_1939.jpg",
+   "rights": "Japanese Press (1930s-1940s)",
+   "title": "China 1939.jpg",
+   "ai": false,
+   "date": "1939-04-11",
+   "bytes": 80722,
+   "avifBytes": 54119
+  },
+  {
+   "id": "cn_hungjao",
+   "type": "image",
+   "tags": [
+    "ruins",
+    "china",
+    "front"
+   ],
+   "src": "media/photos/cn_hungjao.webp",
+   "avif": "media/photos/cn_hungjao.avif",
+   "label": "破壊された虹橋の建物（1937年）",
+   "license": "No restrictions",
+   "source": "https://commons.wikimedia.org/wiki/File:Damaged_Building,_Hungjao_(14597942844).jpg",
+   "rights": "SMU Central University Libraries",
+   "title": "Damaged Building, Hungjao (14597942844).jpg",
+   "ai": false,
+   "date": "Taken on 16 November 1937",
+   "bytes": 33842,
+   "avifBytes": 30126
+  },
+  {
+   "id": "cn_sihang_attack",
+   "type": "image",
+   "tags": [
+    "front",
+    "china",
+    "combat"
+   ],
+   "src": "media/photos/cn_sihang_attack.webp",
+   "avif": "media/photos/cn_sihang_attack.avif",
+   "label": "四行倉庫への攻撃（1937年10月27日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:JapaneseattacksonSihang,Oct27.png",
+   "rights": "作者不詳",
+   "title": "JapaneseattacksonSihang,Oct27.png",
+   "ai": false,
+   "date": "1937-10-27",
+   "bytes": 40580,
+   "avifBytes": 27919
+  },
+  {
+   "id": "cn_flagship",
+   "type": "image",
+   "tags": [
+    "navy",
+    "china"
+   ],
+   "src": "media/photos/cn_flagship.webp",
+   "avif": "media/photos/cn_flagship.avif",
+   "label": "上海の第三艦隊旗艦「出雲」（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:1937_Japan_navy_flagship_in_Shanghai.jpg",
+   "rights": "作者不詳",
+   "title": "1937 Japan navy flagship in Shanghai.jpg",
+   "ai": false,
+   "date": "1937",
+   "bytes": 7394,
+   "avifBytes": 5798
+  },
+  {
+   "id": "mn_cross",
+   "type": "image",
+   "tags": [
+    "front",
+    "manchuria",
+    "river"
+   ],
+   "src": "media/photos/mn_cross.webp",
+   "avif": "media/photos/mn_cross.avif",
+   "label": "ハルハ河を渡る日本兵（ノモンハン・1939年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_soldiers_cross_Khalkhyn_Gol_river_1939.jpg",
+   "rights": "captured photo",
+   "title": "Japanese soldiers cross Khalkhyn Gol river 1939.jpg",
+   "ai": false,
+   "date": "1939",
+   "bytes": 36738,
+   "avifBytes": 21870
+  },
+  {
+   "id": "mn_creep",
+   "type": "image",
+   "tags": [
+    "front",
+    "manchuria",
+    "combat"
+   ],
+   "src": "media/photos/mn_creep.webp",
+   "avif": "media/photos/mn_creep.avif",
+   "label": "破壊されたソ連装甲車の前を這う日本兵（1939年7月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_soldiers_creeping_in_front_of_wrecked_Soviet_tanks.jpg",
+   "rights": "Dōmei Tsushin",
+   "title": "Japanese soldiers creeping in front of wrecked Soviet tanks.jpg",
+   "ai": false,
+   "date": "1939-07",
+   "bytes": 51498,
+   "avifBytes": 37441
+  },
+  {
+   "id": "mn_tanks",
+   "type": "image",
+   "tags": [
+    "front",
+    "manchuria",
+    "tank"
+   ],
+   "src": "media/photos/mn_tanks.webp",
+   "avif": "media/photos/mn_tanks.avif",
+   "label": "ハルハ河へ前進する軽戦車（1939年7月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_light_tanks_moving_forward_the_front_of_the_Khalkha_River.jpg",
+   "rights": "Mainichi Shinbun Sha",
+   "title": "Japanese light tanks moving forward the front of the Khalkha River.jpg",
+   "ai": false,
+   "date": "1939-07",
+   "bytes": 60256,
+   "avifBytes": 44220
+  },
+  {
+   "id": "mn_aa",
+   "type": "image",
+   "tags": [
+    "front",
+    "manchuria",
+    "steppe"
+   ],
+   "src": "media/photos/mn_aa.webp",
+   "avif": "media/photos/mn_aa.avif",
+   "label": "ノモンハンの高射砲陣地（1939年6月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Battles_of_Khalkhin_Gol-Anti_Aircraft_Cannons-JapaneseArmy-1939-06-30.png",
+   "rights": "作者不詳",
+   "title": "Battles of Khalkhin Gol-Anti Aircraft Cannons-JapaneseArmy-1939-06-30.png",
+   "ai": false,
+   "date": "1939-06-30",
+   "bytes": 59492,
+   "avifBytes": 37083
+  },
+  {
+   "id": "mn_captured",
+   "type": "image",
+   "tags": [
+    "pow",
+    "manchuria"
+   ],
+   "src": "media/photos/mn_captured.webp",
+   "avif": "media/photos/mn_captured.avif",
+   "label": "捕虜となった日本兵（ノモンハン・1939年8月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Khalkhin_Gol_Captured_Japanese_soldiers_1939.jpg",
+   "rights": "Виктор Антонович Тёмин",
+   "title": "Khalkhin Gol Captured Japanese soldiers 1939.jpg",
+   "ai": false,
+   "date": "1939-08",
+   "bytes": 56602,
+   "avifBytes": 40189
+  },
+  {
+   "id": "mn_armistice",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "armistice",
+    "front"
+   ],
+   "src": "media/photos/mn_armistice.webp",
+   "avif": "media/photos/mn_armistice.avif",
+   "label": "ノモンハン停戦の現地交渉（1939年10月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Battle_of_Khalkhin_Gol-Local_armistice.jpg",
+   "rights": "NA",
+   "title": "Battle of Khalkhin Gol-Local armistice.jpg",
+   "ai": false,
+   "date": "1939-10-01",
+   "bytes": 10344,
+   "avifBytes": 7832
+  },
+  {
+   "id": "mn_pilots",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "manchuria"
+   ],
+   "src": "media/photos/mn_pilots.webp",
+   "avif": "media/photos/mn_pilots.avif",
+   "label": "ノモンハンの日本軍操縦者（1939年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Khalkhin_Gol_Japanese_pilots_1939.jpg",
+   "rights": "captured japanese photo",
+   "title": "Khalkhin Gol Japanese pilots 1939.jpg",
+   "ai": false,
+   "date": "1939-08",
+   "bytes": 37440,
+   "avifBytes": 26146
+  },
+  {
+   "id": "mn_settlers",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "settler",
+    "front"
+   ],
+   "src": "media/photos/mn_settlers.webp",
+   "avif": "media/photos/mn_settlers.avif",
+   "label": "満洲の開拓団女性の武装訓練（1930年代）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Armed_training_of_Japanese_women_in_Manchuria.JPG",
+   "rights": "作者不詳",
+   "title": "Armed training of Japanese women in Manchuria.JPG",
+   "ai": false,
+   "date": "1930sdate QS:P,+1930-00-00T00:00:00Z/8",
+   "bytes": 75444,
+   "avifBytes": 44137
+  },
+  {
+   "id": "mn_harbin",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "soviet",
+    "front"
+   ],
+   "src": "media/photos/mn_harbin.webp",
+   "avif": "media/photos/mn_harbin.avif",
+   "label": "ハルビン近郊の飛行場に入るソ連軍（1945年8月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Soviets_Enter_Airfield_near_Harbin.jpg",
+   "rights": "作者不詳",
+   "title": "Soviets Enter Airfield near Harbin.jpg",
+   "ai": false,
+   "date": "1945-08",
+   "bytes": 13722,
+   "avifBytes": 12592
+  },
+  {
+   "id": "mn_capit",
+   "type": "image",
+   "tags": [
+    "manchuria",
+    "surrender",
+    "front"
+   ],
+   "src": "media/photos/mn_capit.webp",
+   "avif": "media/photos/mn_capit.avif",
+   "label": "武装解除される関東軍（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Capitulation_of_Japanese_forces.jpg",
+   "rights": "作者不詳",
+   "title": "Capitulation of Japanese forces.jpg",
+   "ai": false,
+   "date": "",
+   "bytes": 36336,
+   "avifBytes": 23865
+  },
+  {
+   "id": "mn_nakhodka",
+   "type": "image",
+   "tags": [
+    "siberia",
+    "pow",
+    "manchuria"
+   ],
+   "src": "media/photos/mn_nakhodka.webp",
+   "avif": "media/photos/mn_nakhodka.avif",
+   "label": "ナホトカの日本人抑留者収容所",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Concentration_Camp_for_Japanese_detainers_in_Nakhodka-1.png",
+   "rights": "作者不詳",
+   "title": "Concentration Camp for Japanese detainers in Nakhodka-1.png",
+   "ai": false,
+   "date": "Unknown date",
+   "bytes": 63764,
+   "avifBytes": 41517
+  },
+  {
+   "id": "mn_return",
+   "type": "image",
+   "tags": [
+    "siberia",
+    "return",
+    "manchuria"
+   ],
+   "src": "media/photos/mn_return.webp",
+   "avif": "media/photos/mn_return.avif",
+   "label": "シベリアから帰還した日本兵（1946年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_Soldiers_Returning_from_Siberia_1946.jpg",
+   "rights": "作者不詳",
+   "title": "Japanese Soldiers Returning from Siberia 1946.jpg",
+   "ai": false,
+   "date": "1946-01-02",
+   "bytes": 120358,
+   "avifBytes": 71844
+  },
+  {
+   "id": "mn_paper",
+   "type": "image",
+   "tags": [
+    "news",
+    "manchuria",
+    "front"
+   ],
+   "src": "media/photos/mn_paper.webp",
+   "avif": "media/photos/mn_paper.avif",
+   "label": "ソ連参戦を報じる北日本新聞（1945年8月）（当時の新聞紙面）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:THE_KITANIPPON_SHIMBUN(4).jpg",
+   "rights": "北日本新聞社",
+   "title": "THE KITANIPPON SHIMBUN(4).jpg",
+   "ai": false,
+   "date": "1945",
+   "bytes": 140864,
+   "avifBytes": 87622
+  },
+  {
+   "id": "pc_cave",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "civilian",
+    "cave",
+    "front"
+   ],
+   "src": "media/photos/pc_cave.webp",
+   "avif": "media/photos/pc_cave.avif",
+   "label": "サイパンの洞窟に隠れていた家族（1944年6月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_member_of_a_Marine_patrol_on_Saipan_found_this_family_of_Japs_hiding_in_a_hillside_cave._The_mother,_four_children_an_-_NARA_-_532380.jpg",
+   "rights": "Corporal Angus Robertson",
+   "title": "A member of a Marine patrol on Saipan found this family of Japs hiding in a hillside cave. The mother, four children an - NARA - 532380.jpg",
+   "ai": false,
+   "date": "21 June 1944date QS:P571,+1944-06-21T00:",
+   "bytes": 55124,
+   "avifBytes": 39834
+  },
+  {
+   "id": "pc_garapan",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "ruins",
+    "front"
+   ],
+   "src": "media/photos/pc_garapan.webp",
+   "avif": "media/photos/pc_garapan.avif",
+   "label": "廃墟となったサイパン・ガラパン（1944年7月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_Marine_bazooka_team_in_the_ruins_of_Garapan,_Saipan._(49479939413).jpg",
+   "rights": "Signal Corps Archive from Ireland and United States",
+   "title": "A Marine bazooka team in the ruins of Garapan, Saipan. (49479939413).jpg",
+   "ai": false,
+   "date": "1944-07-01",
+   "bytes": 88814,
+   "avifBytes": 56275
+  },
+  {
+   "id": "pc_saipanbeach",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "landing",
+    "front"
+   ],
+   "src": "media/photos/pc_saipanbeach.webp",
+   "avif": "media/photos/pc_saipanbeach.avif",
+   "label": "サイパンの海岸に上陸した米軍（1944年6月15日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:American_troops,_assaulting_Saipan,_dig_in_on_the_beaches_of_the_island._15_June,_1944._(52304426547).jpg",
+   "rights": "Signal Corps Archive from United States",
+   "title": "American troops, assaulting Saipan, dig in on the beaches of the island. 15 June, 1944. (52304426547).jpg",
+   "ai": false,
+   "date": "1944-06-15",
+   "bytes": 45738,
+   "avifBytes": 34204
+  },
+  {
+   "id": "pc_tarawapow",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "pow"
+   ],
+   "src": "media/photos/pc_tarawapow.webp",
+   "avif": "media/photos/pc_tarawapow.avif",
+   "label": "タラワの日本人捕虜（1943年11月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:5_Japanese_POWs_on_Tarawa.JPEG",
+   "rights": "US Navy",
+   "title": "5 Japanese POWs on Tarawa.JPEG",
+   "ai": false,
+   "date": "1943-11",
+   "bytes": 49304,
+   "avifBytes": 37045
+  },
+  {
+   "id": "pc_tarawatank",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "ruins",
+    "front"
+   ],
+   "src": "media/photos/pc_tarawatank.webp",
+   "avif": "media/photos/pc_tarawatank.avif",
+   "label": "タラワの日本軍司令部と撃破された戦車（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:*Knocked-out_Japanese_tank_next_to_Japanese_command_post_on_Tarawa._(51439652503).jpg",
+   "rights": "Signal Corps Archive from Ireland and United States",
+   "title": "*Knocked-out Japanese tank next to Japanese command post on Tarawa. (51439652503).jpg",
+   "ai": false,
+   "date": "1943-11-01 00:00",
+   "bytes": 90378,
+   "avifBytes": 60352
+  },
+  {
+   "id": "pc_betio",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "gun",
+    "front"
+   ],
+   "src": "media/photos/pc_betio.webp",
+   "avif": "media/photos/pc_betio.avif",
+   "label": "ベティオ島の破壊された沿岸砲",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:8-inch-japanese-gun-betio.jpg",
+   "rights": "USMC",
+   "title": "8-inch-japanese-gun-betio.jpg",
+   "ai": false,
+   "date": "Unknown date",
+   "bytes": 24256,
+   "avifBytes": 17599
+  },
+  {
+   "id": "pc_tarawaaa",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "gun",
+    "navy"
+   ],
+   "src": "media/photos/pc_tarawaaa.webp",
+   "avif": "media/photos/pc_tarawaaa.avif",
+   "label": "タラワの日本海軍高角砲（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tarawa_1943.jpg",
+   "rights": "Japanese Media (1940s)",
+   "title": "Tarawa 1943.jpg",
+   "ai": false,
+   "date": "2017-02-09",
+   "bytes": 34698,
+   "avifBytes": 29322
+  },
+  {
+   "id": "pc_mortar",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "gun",
+    "front"
+   ],
+   "src": "media/photos/pc_mortar.webp",
+   "avif": "media/photos/pc_mortar.avif",
+   "label": "ペリリューで鹵獲された日本軍の臼砲",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:141-mm-japanese-mortar-peleliu.jpg",
+   "rights": "USMC",
+   "title": "141-mm-japanese-mortar-peleliu.jpg",
+   "ai": false,
+   "date": "Unknown date",
+   "bytes": 54266,
+   "avifBytes": 35106
+  },
+  {
+   "id": "pc_peleliu",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "bombardment",
+    "front"
+   ],
+   "src": "media/photos/pc_peleliu.webp",
+   "avif": "media/photos/pc_peleliu.avif",
+   "label": "艦砲射撃の中のペリリュー上陸（1944年9月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:3rd_wave_going_in_and_naval_gun_fire_in_the_back._September,_1944._Peleliu._(53397037932).jpg",
+   "rights": "Signal Corps Archive from United States",
+   "title": "3rd wave going in and naval gun fire in the back. September, 1944. Peleliu. (53397037932).jpg",
+   "ai": false,
+   "date": "1944-09-15",
+   "bytes": 28238,
+   "avifBytes": 24064
+  },
+  {
+   "id": "pc_ridge",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "guadalcanal",
+    "front"
+   ],
+   "src": "media/photos/pc_ridge.webp",
+   "avif": "media/photos/pc_ridge.avif",
+   "label": "ガダルカナル島の「血染めの丘」（1942年9月）",
+   "license": "CC BY 2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:%22Bloody_Ridge,%22_Guadalcanal,_15_September_1942.jpg",
+   "rights": "Archives Branch, USMC History Division",
+   "title": "\"Bloody Ridge,\" Guadalcanal, 15 September 1942.jpg",
+   "ai": false,
+   "date": "2017-07-25 11:09:15",
+   "bytes": 119142,
+   "avifBytes": 80413
+  },
+  {
+   "id": "pc_matanikau",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "guadalcanal",
+    "wounded",
+    "front"
+   ],
+   "src": "media/photos/pc_matanikau.webp",
+   "avif": "media/photos/pc_matanikau.avif",
+   "label": "マタニカウ河付近の負傷兵搬送（ガダルカナル・1942年）（米海軍の記録画）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:2ndMatanikauEvac.jpg",
+   "rights": "作者不詳",
+   "title": "2ndMatanikauEvac.jpg",
+   "ai": false,
+   "date": "",
+   "bytes": 115630,
+   "avifBytes": 71399
+  },
+  {
+   "id": "pc_ng_snlf",
+   "type": "image",
+   "tags": [
+    "pacific",
+    "landing",
+    "front"
+   ],
+   "src": "media/photos/pc_ng_snlf.webp",
+   "avif": "media/photos/pc_ng_snlf.avif",
+   "label": "ニューギニア方面の海軍陸戦隊（1942年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:New_Guinea_1942.jpg",
+   "rights": "Japanese Media (1940s)",
+   "title": "New Guinea 1942.jpg",
+   "ai": false,
+   "date": "2017-02-09",
+   "bytes": 70122,
+   "avifBytes": 48307
+  },
+  {
+   "id": "pc_zero",
+   "type": "image",
+   "tags": [
+    "airfield",
+    "pacific"
+   ],
+   "src": "media/photos/pc_zero.webp",
+   "avif": "media/photos/pc_zero.avif",
+   "label": "放棄された零式艦上戦闘機（1943年頃）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Abandoned_Mitsubishi_A6M_fighter.jpeg",
+   "rights": "U.S. Navy",
+   "title": "Abandoned Mitsubishi A6M fighter.jpeg",
+   "ai": false,
+   "date": "circa 1943date QS:P,+1943-00-00T00:00:00",
+   "bytes": 89014,
+   "avifBytes": 54104
+  },
+  {
+   "id": "pc_minesweeper",
+   "type": "image",
+   "tags": [
+    "navy",
+    "pacific",
+    "sinking"
+   ],
+   "src": "media/photos/pc_minesweeper.webp",
+   "avif": "media/photos/pc_minesweeper.avif",
+   "label": "攻撃を受ける掃海艇（1944年6月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_minesweeper_Tama_Maru_no._7.jpg",
+   "rights": "作者不詳",
+   "title": "Japanese minesweeper Tama Maru no. 7.jpg",
+   "ai": false,
+   "date": "1944-06-18",
+   "bytes": 1096,
+   "avifBytes": 1234
+  },
+  {
+   "id": "pc_kaga",
+   "type": "image",
+   "tags": [
+    "navy",
+    "airfield",
+    "pacific"
+   ],
+   "src": "media/photos/pc_kaga.webp",
+   "avif": "media/photos/pc_kaga.avif",
+   "label": "空母「加賀」の零戦（1942年）（当時の印刷物）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaga_Carrier_Zero_Fighters.jpg",
+   "rights": "Japanese Media (1940s)",
+   "title": "Kaga Carrier Zero Fighters.jpg",
+   "ai": false,
+   "date": "2017-02-09",
+   "bytes": 36990,
+   "avifBytes": 29845
+  },
+  {
+   "id": "ph_kaoru",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "send-off",
+    "front"
+   ],
+   "src": "media/photos/ph_kaoru.webp",
+   "avif": "media/photos/ph_kaoru.avif",
+   "label": "出撃する薫空挺隊（1944年11月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kaoru_paratroopers.jpg",
+   "rights": "Imperial Japanese Army",
+   "title": "Kaoru paratroopers.jpg",
+   "ai": false,
+   "date": "1944-11-26",
+   "bytes": 14274,
+   "avifBytes": 10035
+  },
+  {
+   "id": "ph_ls159",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "sinking",
+    "transport",
+    "front"
+   ],
+   "src": "media/photos/ph_ls159.webp",
+   "avif": "media/photos/ph_ls159.avif",
+   "label": "オルモック湾で炎上する輸送艦（1944年12月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_landing_ship_LS-159_burning.jpg",
+   "rights": "United States Army",
+   "title": "Japanese landing ship LS-159 burning.jpg",
+   "ai": false,
+   "date": "1944-12-12",
+   "bytes": 9184,
+   "avifBytes": 10354
+  },
+  {
+   "id": "ph_ls11",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "transport",
+    "front"
+   ],
+   "src": "media/photos/ph_ls11.webp",
+   "avif": "media/photos/ph_ls11.avif",
+   "label": "レイテ北西で擱座した輸送艦（1944年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_landing_ship_LS-11_partially_sunk.jpg",
+   "rights": "unknown (probably Fifth Air Force, United States Army Air Forces.)",
+   "title": "Japanese landing ship LS-11 partially sunk.jpg",
+   "ai": false,
+   "date": "1944",
+   "bytes": 21604,
+   "avifBytes": 18512
+  },
+  {
+   "id": "ph_wakatsuki",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "navy",
+    "sinking"
+   ],
+   "src": "media/photos/ph_wakatsuki.webp",
+   "avif": "media/photos/ph_wakatsuki.avif",
+   "label": "レイテ沖で炎上する駆逐艦「若月」（1944年11月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_destroyer_sinking_Nov_1944.jpeg",
+   "rights": "U.S. Navy (The image is part of a scrapbook assembled by Commander Francis N. Gilreath during his service as Flag Secret",
+   "title": "Japanese destroyer sinking Nov 1944.jpeg",
+   "ai": false,
+   "date": "1944-11-11",
+   "bytes": 71174,
+   "avifBytes": 50463
+  },
+  {
+   "id": "ph_navalfire",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "bombardment",
+    "front"
+   ],
+   "src": "media/photos/ph_navalfire.webp",
+   "avif": "media/photos/ph_navalfire.avif",
+   "label": "艦砲射撃で煙を上げるレイテの海岸（1944年10月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Naval_shell_fire_on_Leyte_beach.jpg",
+   "rights": "Unknown",
+   "title": "Naval shell fire on Leyte beach.jpg",
+   "ai": false,
+   "date": "October 20, 1944",
+   "bytes": 22910,
+   "avifBytes": 17253
+  },
+  {
+   "id": "ph_manilaescape",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "civilian",
+    "refugees",
+    "front"
+   ],
+   "src": "media/photos/ph_manilaescape.webp",
+   "avif": "media/photos/ph_manilaescape.avif",
+   "label": "戦火から逃げるマニラの市民（1945年2月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:ManilaEscape.jpg",
+   "rights": "作者不詳",
+   "title": "ManilaEscape.jpg",
+   "ai": false,
+   "date": "1945-02-10",
+   "bytes": 52814,
+   "avifBytes": 40236
+  },
+  {
+   "id": "ph_intramuros",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "ruins",
+    "front"
+   ],
+   "src": "media/photos/ph_intramuros.webp",
+   "avif": "media/photos/ph_intramuros.avif",
+   "label": "破壊されたマニラ・イントラムロス（1945年5月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Manila_Walled_City_Destruction_May_1945.jpg",
+   "rights": "Unknown photographer",
+   "title": "Manila Walled City Destruction May 1945.jpg",
+   "ai": false,
+   "date": "1945-05",
+   "bytes": 175068,
+   "avifBytes": 96964
+  },
+  {
+   "id": "ph_wounded",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "surrender",
+    "wounded",
+    "front"
+   ],
+   "src": "media/photos/ph_wounded.webp",
+   "avif": "media/photos/ph_wounded.avif",
+   "label": "投降する負傷日本兵（マニラ・1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_troops_wounded_surrender_to_US_and_Filipino_soldiers_in_Manila_1945.jpg",
+   "rights": "United States. Office of War Information. Overseas Picture Division.",
+   "title": "Japanese troops wounded surrender to US and Filipino soldiers in Manila 1945.jpg",
+   "ai": false,
+   "date": "between 1942 and 1945date QS:P,+1942-00-",
+   "bytes": 81136,
+   "avifBytes": 49961
+  },
+  {
+   "id": "ph_surrender",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "surrender",
+    "front"
+   ],
+   "src": "media/photos/ph_surrender.webp",
+   "avif": "media/photos/ph_surrender.avif",
+   "label": "ルソン島で投降する日本兵（1945年9月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Japanese_surrender_to_40th.jpg",
+   "rights": "作者不詳",
+   "title": "Japanese surrender to 40th.jpg",
+   "ai": false,
+   "date": "1945-09",
+   "bytes": 35846,
+   "avifBytes": 20313
+  },
+  {
+   "id": "ph_lipa",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "ruins",
+    "front"
+   ],
+   "src": "media/photos/ph_lipa.webp",
+   "avif": "media/photos/ph_lipa.avif",
+   "label": "砲爆撃後のリパ市街（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Lipa_After_Bombardment.jpg",
+   "rights": "This file was a work of the United States Department of Defense from Ibiblio.com.",
+   "title": "Lipa After Bombardment.jpg",
+   "ai": false,
+   "date": "The first publication of this file here ",
+   "bytes": 47190,
+   "avifBytes": 29752
+  },
+  {
+   "id": "ph_napalm",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "bombardment",
+    "mountain",
+    "front"
+   ],
+   "src": "media/photos/ph_napalm.webp",
+   "avif": "media/photos/ph_napalm.avif",
+   "label": "ルソン山中へのナパーム攻撃の煙（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Pillars_of_smoke_towered_3000_ft.,_after_napalm_attack_by_5th_AF_fighters_at_Luzon.jpg",
+   "rights": "U.S. Air Force",
+   "title": "Pillars of smoke towered 3000 ft., after napalm attack by 5th AF fighters at Luzon.jpg",
+   "ai": false,
+   "date": "1945-08",
+   "bytes": 47824,
+   "avifBytes": 32624
+  },
+  {
+   "id": "ph_corregidor",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "bombardment",
+    "front"
+   ],
+   "src": "media/photos/ph_corregidor.webp",
+   "avif": "media/photos/ph_corregidor.avif",
+   "label": "砲撃下のコレヒドール島（1945年2月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Corregidor_under_fire_in_February_1945.jpg",
+   "rights": "USN",
+   "title": "Corregidor under fire in February 1945.jpg",
+   "ai": false,
+   "date": "between 13 February 1945 and 16 February",
+   "bytes": 15674,
+   "avifBytes": 18022
+  },
+  {
+   "id": "ph_baleta",
+   "type": "image",
+   "tags": [
+    "philippines",
+    "mountain",
+    "front"
+   ],
+   "src": "media/photos/ph_baleta.webp",
+   "avif": "media/photos/ph_baleta.avif",
+   "label": "バギオ近郊バレテ峠の山道（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Baleta_Pass,_near_Baugio,_Luzon.jpg",
+   "rights": "作者不詳",
+   "title": "Baleta Pass, near Baugio, Luzon.jpg",
+   "ai": false,
+   "date": "",
+   "bytes": 117044,
+   "avifBytes": 69283
+  },
+  {
+   "id": "ph_kamikaze",
+   "type": "image",
+   "tags": [
+    "tokko",
+    "navy",
+    "philippines"
+   ],
+   "src": "media/photos/ph_kamikaze.webp",
+   "avif": "media/photos/ph_kamikaze.avif",
+   "label": "米艦に突入する特攻機（1945年頃）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A6M_kamikaze_attacking_c1945.jpg",
+   "rights": "USN",
+   "title": "A6M kamikaze attacking c1945.jpg",
+   "ai": false,
+   "date": "circa 1945date QS:P,+1945-00-00T00:00:00",
+   "bytes": 34756,
+   "avifBytes": 30691
+  },
+  {
+   "id": "ph_shikishima",
+   "type": "image",
+   "tags": [
+    "tokko",
+    "airfield",
+    "philippines"
+   ],
+   "src": "media/photos/ph_shikishima.webp",
+   "avif": "media/photos/ph_shikishima.avif",
+   "label": "敷島隊の出撃（1944年10月25日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Captain_Seki_and_Sikishima_Corps_zeroes.jpg",
+   "rights": "Imperial Japanese Navy",
+   "title": "Captain Seki and Sikishima Corps zeroes.jpg",
+   "ai": false,
+   "date": "1944-10-25",
+   "bytes": 38022,
+   "avifBytes": 29716
+  },
+  {
+   "id": "hm_bucket",
+   "type": "image",
+   "tags": [
+    "home",
+    "tonarigumi",
+    "drill"
+   ],
+   "src": "media/photos/hm_bucket.webp",
+   "avif": "media/photos/hm_bucket.avif",
+   "label": "隣組のバケツリレー防火訓練（1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Bucket_brigade_in_fire_drill_of_Tonarigumi,_The_neighborhood_mutual-aid_association,_1941_Japan.jpg",
+   "rights": "梅本忠男 Umemoto, Tadao（ネガ番号: 416C）",
+   "title": "Bucket brigade in fire drill of Tonarigumi, The neighborhood mutual-aid association, 1941 Japan.jpg",
+   "ai": false,
+   "date": "1941",
+   "bytes": 99966,
+   "avifBytes": 57722
+  },
+  {
+   "id": "hm_ration",
+   "type": "image",
+   "tags": [
+    "home",
+    "ration"
+   ],
+   "src": "media/photos/hm_ration.webp",
+   "avif": "media/photos/hm_ration.avif",
+   "label": "隣組による配給",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Civilian_rationing_by_tonarigumi.JPG",
+   "rights": "作者不詳",
+   "title": "Civilian rationing by tonarigumi.JPG",
+   "ai": false,
+   "date": "During 1940-1945",
+   "bytes": 27478,
+   "avifBytes": 18232
+  },
+  {
+   "id": "hm_ricefeed",
+   "type": "image",
+   "tags": [
+    "home",
+    "ration",
+    "airraid"
+   ],
+   "src": "media/photos/hm_ricefeed.webp",
+   "avif": "media/photos/hm_ricefeed.avif",
+   "label": "隣組の非常炊き出し（1945年7月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Emergency_rice_feeding_by_Tonarigumi.JPG",
+   "rights": "作者不詳",
+   "title": "Emergency rice feeding by Tonarigumi.JPG",
+   "ai": false,
+   "date": "1945-07-04",
+   "bytes": 31484,
+   "avifBytes": 19840
+  },
+  {
+   "id": "hm_kyodo",
+   "type": "image",
+   "tags": [
+    "home",
+    "tonarigumi"
+   ],
+   "src": "media/photos/hm_kyodo.webp",
+   "avif": "media/photos/hm_kyodo.avif",
+   "label": "隣組の共同炊事（1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tonarigumi,_The_neighborhood_mutual-aid_association_1941_Japan.jpg",
+   "rights": "梅本忠男 Umemoto, Tadao（ネガ番号: 415G）",
+   "title": "Tonarigumi, The neighborhood mutual-aid association 1941 Japan.jpg",
+   "ai": false,
+   "date": "1941",
+   "bytes": 93644,
+   "avifBytes": 55183
+  },
+  {
+   "id": "hm_senninbari",
+   "type": "image",
+   "tags": [
+    "home",
+    "senninbari"
+   ],
+   "src": "media/photos/hm_senninbari.webp",
+   "avif": "media/photos/hm_senninbari.avif",
+   "label": "銀座で千人針を頼む女性（1937年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:SenninBari,_in_Ginza,_1937.jpg",
+   "rights": "Kōyō Ishikawa",
+   "title": "SenninBari, in Ginza, 1937.jpg",
+   "ai": false,
+   "date": "1937-05-08",
+   "bytes": 26764,
+   "avifBytes": 21573
+  },
+  {
+   "id": "hm_senninbari36",
+   "type": "image",
+   "tags": [
+    "home",
+    "senninbari"
+   ],
+   "src": "media/photos/hm_senninbari36.webp",
+   "avif": "media/photos/hm_senninbari36.avif",
+   "label": "千人針を縫う女性たち（1936年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Women_sewing_Senninbari_in_1936.jpg",
+   "rights": "Kōji Morooka",
+   "title": "Women sewing Senninbari in 1936.jpg",
+   "ai": false,
+   "date": "昭和11年撮影",
+   "bytes": 13470,
+   "avifBytes": 11471
+  },
+  {
+   "id": "hm_drill1",
+   "type": "image",
+   "tags": [
+    "home",
+    "drill",
+    "airraid"
+   ],
+   "src": "media/photos/hm_drill1.webp",
+   "avif": "media/photos/hm_drill1.avif",
+   "label": "防空演習（1942年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_Raid_Drill_in_Japan_during_World_War_II1.JPG",
+   "rights": "作者不詳",
+   "title": "Air Raid Drill in Japan during World War II1.JPG",
+   "ai": false,
+   "date": "1942",
+   "bytes": 33470,
+   "avifBytes": 22608
+  },
+  {
+   "id": "hm_drill2",
+   "type": "image",
+   "tags": [
+    "home",
+    "drill",
+    "airraid"
+   ],
+   "src": "media/photos/hm_drill2.webp",
+   "avif": "media/photos/hm_drill2.avif",
+   "label": "防空演習（1943年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Air_Raid_Drill_in_Japan_during_World_War_II2.JPG",
+   "rights": "作者不詳",
+   "title": "Air Raid Drill in Japan during World War II2.JPG",
+   "ai": false,
+   "date": "1943",
+   "bytes": 50478,
+   "avifBytes": 33172
+  },
+  {
+   "id": "hm_evac",
+   "type": "image",
+   "tags": [
+    "home",
+    "evacuation",
+    "child"
+   ],
+   "src": "media/photos/hm_evac.webp",
+   "avif": "media/photos/hm_evac.avif",
+   "label": "学童疎開へ出発する子どもたち（1944年8月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Evacuation_of_Schoolchildren_in_Japan.JPG",
+   "rights": "作者不詳",
+   "title": "Evacuation of Schoolchildren in Japan.JPG",
+   "ai": false,
+   "date": "1944-08",
+   "bytes": 38976,
+   "avifBytes": 25825
+  },
+  {
+   "id": "hm_nada",
+   "type": "image",
+   "tags": [
+    "station",
+    "send-off",
+    "home"
+   ],
+   "src": "media/photos/hm_nada.webp",
+   "avif": "media/photos/hm_nada.avif",
+   "label": "灘駅で出征兵士を見送る中学生（1942年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nada_Station_1942_go_to_war.jpg",
+   "rights": "作者不詳",
+   "title": "Nada Station 1942 go to war.jpg",
+   "ai": false,
+   "date": "1942",
+   "bytes": 39730,
+   "avifBytes": 30305
+  },
+  {
+   "id": "hm_nagoya",
+   "type": "image",
+   "tags": [
+    "station",
+    "home"
+   ],
+   "src": "media/photos/hm_nagoya.webp",
+   "avif": "media/photos/hm_nagoya.avif",
+   "label": "戦時下の名古屋駅",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nagoya_Station_under_war.jpg",
+   "rights": "鐵道省",
+   "title": "Nagoya Station under war.jpg",
+   "ai": false,
+   "date": "between May 1938 and 18 March 1945date Q",
+   "bytes": 38486,
+   "avifBytes": 25208
+  },
+  {
+   "id": "hm_boy",
+   "type": "image",
+   "tags": [
+    "home",
+    "bereaved",
+    "station"
+   ],
+   "src": "media/photos/hm_boy.webp",
+   "avif": "media/photos/hm_boy.avif",
+   "label": "亡き父の遺影を抱き挨拶する少年（江部乙駅・1939年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:The_boy_standing_at_the_station_with_a_picture_of_the_late_father.jpg",
+   "rights": "岩佐職司",
+   "title": "The boy standing at the station with a picture of the late father.jpg",
+   "ai": false,
+   "date": "1939",
+   "bytes": 49320,
+   "avifBytes": 35093
+  },
+  {
+   "id": "hm_gakuto",
+   "type": "image",
+   "tags": [
+    "send-off",
+    "student",
+    "home"
+   ],
+   "src": "media/photos/hm_gakuto.webp",
+   "avif": "media/photos/hm_gakuto.avif",
+   "label": "出陣学徒壮行会（1943年10月21日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Gakuto_shutsujin.jpg",
+   "rights": "作者不詳",
+   "title": "Gakuto shutsujin.jpg",
+   "ai": false,
+   "date": "昭和18年10月21日 / 21 October 1943",
+   "bytes": 33718,
+   "avifBytes": 20093
+  },
+  {
+   "id": "hm_exam",
+   "type": "image",
+   "tags": [
+    "conscription",
+    "exam",
+    "home"
+   ],
+   "src": "media/photos/hm_exam.webp",
+   "avif": "media/photos/hm_exam.avif",
+   "label": "徴兵検査の光景（1941年頃）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Examination_for_conscription_in_Japan.jpg",
+   "rights": "the Cabinet Intelligence Bureau",
+   "title": "Examination for conscription in Japan.jpg",
+   "ai": false,
+   "date": "circa 1941date QS:P,+1941-00-00T00:00:00",
+   "bytes": 8776,
+   "avifBytes": 5728
+  },
+  {
+   "id": "hm_gasmask",
+   "type": "image",
+   "tags": [
+    "home",
+    "drill"
+   ],
+   "src": "media/photos/hm_gasmask.webp",
+   "avif": "media/photos/hm_gasmask.avif",
+   "label": "防毒面の付け方を指導する警察官（1938年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Gasmask_JPN_(1938).png",
+   "rights": "作者不詳",
+   "title": "Gasmask JPN (1938).png",
+   "ai": false,
+   "date": "",
+   "bytes": 27516,
+   "avifBytes": 21469
+  },
+  {
+   "id": "hm_kometsuki",
+   "type": "image",
+   "tags": [
+    "home",
+    "ration",
+    "food"
+   ],
+   "src": "media/photos/hm_kometsuki.webp",
+   "avif": "media/photos/hm_kometsuki.avif",
+   "label": "一升瓶で玄米を搗く（米搗き瓶）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kometsuki-bin.JPG",
+   "rights": "作者不詳",
+   "title": "Kometsuki-bin.JPG",
+   "ai": false,
+   "date": "1940sdate QS:P,+1940-00-00T00:00:00Z/8",
+   "bytes": 18242,
+   "avifBytes": 13936
+  },
+  {
+   "id": "hm_bus",
+   "type": "image",
+   "tags": [
+    "home",
+    "daily"
+   ],
+   "src": "media/photos/hm_bus.webp",
+   "avif": "media/photos/hm_bus.avif",
+   "label": "木炭バス（1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Charcoal-fired_bus_in_Japan.JPG",
+   "rights": "作者不詳",
+   "title": "Charcoal-fired bus in Japan.JPG",
+   "ai": false,
+   "date": "1941",
+   "bytes": 21538,
+   "avifBytes": 16383
+  },
+  {
+   "id": "hm_nakajima",
+   "type": "image",
+   "tags": [
+    "factory",
+    "mobilization",
+    "home"
+   ],
+   "src": "media/photos/hm_nakajima.webp",
+   "avif": "media/photos/hm_nakajima.avif",
+   "label": "中島飛行機半田製作所の組立作業（1944年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Assembly_work_at_Nakajima-Handa.jpg",
+   "rights": "中部日本新聞社",
+   "title": "Assembly work at Nakajima-Handa.jpg",
+   "ai": false,
+   "date": "1944-09-20",
+   "bytes": 229206,
+   "avifBytes": 125574
+  },
+  {
+   "id": "hm_militia",
+   "type": "image",
+   "tags": [
+    "home",
+    "mobilization"
+   ],
+   "src": "media/photos/hm_militia.webp",
+   "avif": "media/photos/hm_militia.avif",
+   "label": "九十九里浜の学徒の訓練（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Student_militia_at_Kujukurihama.jpg",
+   "rights": "同盟通新社",
+   "title": "Student militia at Kujukurihama.jpg",
+   "ai": false,
+   "date": "1945",
+   "bytes": 22346,
+   "avifBytes": 15072
+  },
+  {
+   "id": "hm_giyutai",
+   "type": "image",
+   "tags": [
+    "home",
+    "mobilization"
+   ],
+   "src": "media/photos/hm_giyutai.webp",
+   "avif": "media/photos/hm_giyutai.avif",
+   "label": "銃の扱いを習う女子学生（国民義勇隊・1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kokumin_Giyutai.jpg",
+   "rights": "作者不詳",
+   "title": "Kokumin Giyutai.jpg",
+   "ai": false,
+   "date": "1945",
+   "bytes": 93006,
+   "avifBytes": 59783
+  },
+  {
+   "id": "hm_zoo",
+   "type": "image",
+   "tags": [
+    "home",
+    "child"
+   ],
+   "src": "media/photos/hm_zoo.webp",
+   "avif": "media/photos/hm_zoo.avif",
+   "label": "鉄兜姿でキリンを見る子ども（上野動物園・1941年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E9%89%84%E5%85%9C%E5%A7%BF%E3%81%A7%E3%82%AD%E3%83%AA%E3%83%B3%E3%82%92%E8%A6%8B%E3%82%8B%E5%AD%90%E4%BE%9B.png",
+   "rights": "作者不詳",
+   "title": "鉄兜姿でキリンを見る子供.png",
+   "ai": false,
+   "date": "Taken in 1941",
+   "bytes": 25290,
+   "avifBytes": 17892
+  },
+  {
+   "id": "hm_tokyoafter",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm_tokyoafter.webp",
+   "avif": "media/photos/hm_tokyoafter.avif",
+   "label": "空襲後の東京・東日本橋付近（1945年3月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Tokyo_after_the_1945_air_raid.jpg",
+   "rights": "作者不詳",
+   "title": "Tokyo after the 1945 air raid.jpg",
+   "ai": false,
+   "date": "1945-03",
+   "bytes": 45446,
+   "avifBytes": 26832
+  },
+  {
+   "id": "hm_ryogoku",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm_ryogoku.webp",
+   "avif": "media/photos/hm_ryogoku.avif",
+   "label": "焼け野原となった両国（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Wartime_Ryogoku,_1945.jpg",
+   "rights": "Unknown",
+   "title": "Wartime Ryogoku, 1945.jpg",
+   "ai": false,
+   "date": "1945",
+   "bytes": 93806,
+   "avifBytes": 56214
+  },
+  {
+   "id": "hm_nakamise",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm_nakamise.webp",
+   "avif": "media/photos/hm_nakamise.avif",
+   "label": "焼け落ちた浅草・仲見世（1945年3月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Photo-TokyoAirRaids-1945-3-10-Destroyed_Nakamise-1.png",
+   "rights": "Fukao Kōzō",
+   "title": "Photo-TokyoAirRaids-1945-3-10-Destroyed Nakamise-1.png",
+   "ai": false,
+   "date": "Taken on 19 March 1945",
+   "bytes": 61784,
+   "avifBytes": 46388
+  },
+  {
+   "id": "hm_b29",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "b29",
+    "home"
+   ],
+   "src": "media/photos/hm_b29.webp",
+   "avif": "media/photos/hm_b29.avif",
+   "label": "東京を爆撃するB-29（1945年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:B-29_bombing.jpg",
+   "rights": "United States Army",
+   "title": "B-29 bombing.jpg",
+   "ai": false,
+   "date": "circa 1945date QS:P,+1945-00-00T00:00:00",
+   "bytes": 10256,
+   "avifBytes": 8710
+  },
+  {
+   "id": "hm_b29drop",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "b29",
+    "home"
+   ],
+   "src": "media/photos/hm_b29drop.webp",
+   "avif": "media/photos/hm_b29drop.avif",
+   "label": "投弾するB-29編隊",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:B-29s_dropping_bombs.jpg",
+   "rights": "作者不詳",
+   "title": "B-29s dropping bombs.jpg",
+   "ai": false,
+   "date": "",
+   "bytes": 18124,
+   "avifBytes": 17083
+  },
+  {
+   "id": "hm_ebisu",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "ruins",
+    "family",
+    "home"
+   ],
+   "src": "media/photos/hm_ebisu.webp",
+   "avif": "media/photos/hm_ebisu.avif",
+   "label": "焼けた家の前の母と子（恵比寿）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Ebisu-woman-and-child-outside-bombed-home.jpg",
+   "rights": "Not stated, but the photos are marked as being taken by the United States Army Air Forces and held by the US National Ar",
+   "title": "Ebisu-woman-and-child-outside-bombed-home.jpg",
+   "ai": false,
+   "date": "after 1945date QS:P,+1945-00-00T00:00:00",
+   "bytes": 41770,
+   "avifBytes": 32846
+  },
+  {
+   "id": "hm_waseda",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "ruins",
+    "home"
+   ],
+   "src": "media/photos/hm_waseda.webp",
+   "avif": "media/photos/hm_waseda.avif",
+   "label": "空襲後の早稲田大学周辺（1945年3月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Waseda_University_after_Tokyo_bombings,_March_1945_(1).jpg",
+   "rights": "作者不詳",
+   "title": "Waseda University after Tokyo bombings, March 1945 (1).jpg",
+   "ai": false,
+   "date": "1945-03",
+   "bytes": 108208,
+   "avifBytes": 52868
+  },
+  {
+   "id": "hm_kushiro",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "fire",
+    "home"
+   ],
+   "src": "media/photos/hm_kushiro.webp",
+   "avif": "media/photos/hm_kushiro.avif",
+   "label": "艦載機の空襲で燃える釧路（1945年7月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Kushiro_on_Hokkaido_burning_after_carrier_raid.jpg",
+   "rights": "U.S. Navy",
+   "title": "Kushiro on Hokkaido burning after carrier raid.jpg",
+   "ai": false,
+   "date": "July 1945",
+   "bytes": 102614,
+   "avifBytes": 64454
+  },
+  {
+   "id": "hm_naha",
+   "type": "image",
+   "tags": [
+    "airraid",
+    "okinawa",
+    "home"
+   ],
+   "src": "media/photos/hm_naha.webp",
+   "avif": "media/photos/hm_naha.avif",
+   "label": "十・十空襲を受ける那覇（1944年10月10日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Naha_bomb_10_oct_1944.jpg",
+   "rights": "US Navy Photograph",
+   "title": "Naha bomb 10 oct 1944.jpg",
+   "ai": false,
+   "date": "Taken on 10 October 1944",
+   "bytes": 64028,
+   "avifBytes": 40983
+  },
+  {
+   "id": "hm_yamamoto",
+   "type": "image",
+   "tags": [
+    "home",
+    "funeral"
+   ],
+   "src": "media/photos/hm_yamamoto.webp",
+   "avif": "media/photos/hm_yamamoto.avif",
+   "label": "山本五十六の国葬（1943年6月）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:State_funeral_of_Isoroku_Yamamoto.JPG",
+   "rights": "作者不詳",
+   "title": "State funeral of Isoroku Yamamoto.JPG",
+   "ai": false,
+   "date": "1943-06-05",
+   "bytes": 38542,
+   "avifBytes": 24753
+  },
+  {
+   "id": "hm_dangan",
+   "type": "image",
+   "tags": [
+    "home",
+    "propaganda"
+   ],
+   "src": "media/photos/hm_dangan.webp",
+   "avif": "media/photos/hm_dangan.avif",
+   "label": "弾丸切手の広告（1943年）（当時のポスター）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Dangan_Kitte.JPG",
+   "rights": "大蔵省/内閣情報局",
+   "title": "Dangan Kitte.JPG",
+   "ai": false,
+   "date": "1943",
+   "bytes": 38770,
+   "avifBytes": 26391
+  },
+  {
+   "id": "hm_armyday",
+   "type": "image",
+   "tags": [
+    "home",
+    "propaganda"
+   ],
+   "src": "media/photos/hm_armyday.webp",
+   "avif": "media/photos/hm_armyday.avif",
+   "label": "陸軍記念日の行進（1943年3月10日）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Imperial_Japanese_Army_Commemoration_Day_1943-3-10.jpg",
+   "rights": "作者不詳",
+   "title": "Imperial Japanese Army Commemoration Day 1943-3-10.jpg",
+   "ai": false,
+   "date": "1943-03-10",
+   "bytes": 159488,
+   "avifBytes": 89228
+  },
+  {
+   "id": "hm_line46",
+   "type": "image",
+   "tags": [
+    "postwar",
+    "ration",
+    "home"
+   ],
+   "src": "media/photos/hm_line46.webp",
+   "avif": "media/photos/hm_line46.avif",
+   "label": "配給を待つ長い列（銀座・1946年）",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:A_long_line_for_food_distribution_-_Ginza,_Tokyo_1946.png",
+   "rights": "Tadahiko Hayashi",
+   "title": "A long line for food distribution - Ginza, Tokyo 1946.png",
+   "ai": false,
+   "date": "1946",
+   "bytes": 91744,
+   "avifBytes": 51381
+  },
+  {
+   "id": "real_cn_bombing",
+   "type": "clip",
+   "tags": [
+    "front",
+    "china",
+    "bombing"
+   ],
+   "src": "media/clips/real_cn_bombing.mp4",
+   "poster": "media/clips/real_cn_bombing.webp",
+   "label": "上海戦の記録映画（1937年）より 爆撃の煙",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E7%9B%A7%E6%BA%9D%E6%A9%8B_%E6%B7%9E%E6%BB%AC%E4%B8%8A%E6%B5%B7%E4%BF%9D%E8%A1%9B%E6%88%B0_%E6%8A%97%E6%88%B0%E7%9C%9F%E5%AF%A6%E7%B4%80%E9%8C%84%E5%BD%B1%E7%89%87.ogv",
+   "rights": "U.S. Army Special Service Division",
+   "title": "盧溝橋 淞滬上海保衛戰 抗戰真實紀錄影片.ogv",
+   "ai": false,
+   "bytes": 147069,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_cn_refugees",
+   "type": "clip",
+   "tags": [
+    "refugees",
+    "china",
+    "civilian"
+   ],
+   "src": "media/clips/real_cn_refugees.mp4",
+   "poster": "media/clips/real_cn_refugees.webp",
+   "label": "上海戦の記録映画（1937年）より 避難する市民",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E7%9B%A7%E6%BA%9D%E6%A9%8B_%E6%B7%9E%E6%BB%AC%E4%B8%8A%E6%B5%B7%E4%BF%9D%E8%A1%9B%E6%88%B0_%E6%8A%97%E6%88%B0%E7%9C%9F%E5%AF%A6%E7%B4%80%E9%8C%84%E5%BD%B1%E7%89%87.ogv",
+   "rights": "U.S. Army Special Service Division",
+   "title": "盧溝橋 淞滬上海保衛戰 抗戰真實紀錄影片.ogv",
+   "ai": false,
+   "bytes": 244993,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_hongkong",
+   "type": "clip",
+   "tags": [
+    "front",
+    "south",
+    "landing"
+   ],
+   "src": "media/clips/real_hongkong.mp4",
+   "poster": "media/clips/real_hongkong.webp",
+   "label": "日本ニュース第82号（1942年1月）より 香港攻略戦",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_%E7%AC%AC82%E5%8F%B7.webm",
+   "rights": "作者不詳",
+   "title": "日本ニュース 第82号.webm",
+   "ai": false,
+   "bytes": 106044,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_navyair",
+   "type": "clip",
+   "tags": [
+    "navy",
+    "airfield",
+    "front"
+   ],
+   "src": "media/clips/real_navyair.mp4",
+   "poster": "media/clips/real_navyair.webp",
+   "label": "日本ニュース第82号（1942年1月）より 海軍航空部隊撮影",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9_%E7%AC%AC82%E5%8F%B7.webm",
+   "rights": "作者不詳",
+   "title": "日本ニュース 第82号.webm",
+   "ai": false,
+   "bytes": 114036,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_parade",
+   "type": "clip",
+   "tags": [
+    "barracks",
+    "training",
+    "propaganda"
+   ],
+   "src": "media/clips/real_parade.mp4",
+   "poster": "media/clips/real_parade.webp",
+   "label": "日本ニュース第241号（1945年1月）より 陸軍観兵式",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nippon_News_No241.ogv",
+   "rights": "社団法人日本映画社",
+   "title": "Nippon News No241.ogv",
+   "ai": false,
+   "bytes": 143264,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_tokko_sendoff",
+   "type": "clip",
+   "tags": [
+    "tokko",
+    "airfield",
+    "send-off"
+   ],
+   "src": "media/clips/real_tokko_sendoff.mp4",
+   "poster": "media/clips/real_tokko_sendoff.webp",
+   "label": "日本ニュース第241号（1945年1月）より 特別攻撃隊の出撃前",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nippon_News_No241.ogv",
+   "rights": "社団法人日本映画社",
+   "title": "Nippon News No241.ogv",
+   "ai": false,
+   "bytes": 87697,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_tokko_takeoff",
+   "type": "clip",
+   "tags": [
+    "tokko",
+    "airfield"
+   ],
+   "src": "media/clips/real_tokko_takeoff.mp4",
+   "poster": "media/clips/real_tokko_takeoff.webp",
+   "label": "日本ニュース第241号（1945年1月）より 特攻機の発進",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:Nippon_News_No241.ogv",
+   "rights": "社団法人日本映画社",
+   "title": "Nippon News No241.ogv",
+   "ai": false,
+   "bytes": 110293,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_kamikaze",
+   "type": "clip",
+   "tags": [
+    "tokko",
+    "navy",
+    "sinking"
+   ],
+   "src": "media/clips/real_kamikaze.mp4",
+   "poster": "media/clips/real_kamikaze.webp",
+   "label": "米国防総省の記録映像より 米艦への特攻（1944-45年）",
+   "license": "CC0",
+   "source": "https://commons.wikimedia.org/wiki/File:Kamikaze_attacks_on_U.S._ships.ogv",
+   "rights": "Department of Defense",
+   "title": "Kamikaze attacks on U.S. ships.ogv",
+   "ai": false,
+   "bytes": 143246,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_postwar_crowd",
+   "type": "clip",
+   "tags": [
+    "postwar",
+    "ration"
+   ],
+   "src": "media/clips/real_postwar_crowd.mp4",
+   "poster": "media/clips/real_postwar_crowd.webp",
+   "label": "米ニュース映画「Japan Today」（1946年）より 戦後の街の人混み",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:1946-06-20_Japan_Today.ogv",
+   "rights": "作者不詳",
+   "title": "1946-06-20 Japan Today.ogv",
+   "ai": false,
+   "bytes": 169350,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
+  },
+  {
+   "id": "real_postwar_rebuild",
+   "type": "clip",
+   "tags": [
+    "postwar",
+    "ruins"
+   ],
+   "src": "media/clips/real_postwar_rebuild.mp4",
+   "poster": "media/clips/real_postwar_rebuild.webp",
+   "label": "米ニュース映画「Japan Today」（1946年）より 焼け跡のバラック建設",
+   "license": "Public domain",
+   "source": "https://commons.wikimedia.org/wiki/File:1946-06-20_Japan_Today.ogv",
+   "rights": "作者不詳",
+   "title": "1946-06-20 Japan Today.ogv",
+   "ai": false,
+   "bytes": 124690,
+   "muted": true,
+   "loop": true,
+   "seconds": 8
   }
  ]
 }

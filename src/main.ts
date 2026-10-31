@@ -2,7 +2,7 @@ import './style.css';
 import { D, newGame, advance, choose, postTurn, succeed, serialize, deserialize, KEY, compareTimeline, age, rankName, fill, State, Card, Mode } from './engine/game';
 import { fmtJa, fmtShort, yearOf } from './engine/date';
 import { sfx, sound, setSound } from './ui/audio';
-import { loadManifest, pickAsset, pictureHtml, clipHtml, url } from './ui/media';
+import { loadManifest, pickAsset, pictureHtml, clipHtml, url, manifestNow } from './ui/media';
 
 const app = document.getElementById('app')!;
 let st: State | null = null;
@@ -91,9 +91,11 @@ function linesHtml(lines: any[]) {
 function artFor(c: Card) {
   const art = c.ev?.art || c.hist?.art || (st!.mode === 'state' ? 'council' : 'village');
   const tags = [art, c.ev?.category || c.hist?.category || '', st!.mode];
-  const clip = (c.kind === 'news' || c.ev?.category === 'front') ? pickAsset(tags, c.id || '', 'clip') : null;
+  const want = c.ev?.img || c.hist?.img; const wantClip = c.ev?.clip || c.hist?.clip;
+  if (want && !wantClip) { const x = pickAsset([], '', 'image', want); if (x) return pictureHtml(x); }
+  const clip = wantClip ? pickAsset([], '', 'clip', wantClip) : (c.kind === 'news' || c.ev?.category === 'front') && !want ? pickAsset([...(c.ev?.tags || []), ...tags], c.id || '', 'clip') : null;
   if (clip && !matchMedia('(prefers-reduced-motion: reduce)').matches) return clipHtml(clip);
-  const a = pickAsset(tags, c.id || '');
+  const a = pickAsset([...(c.ev?.tags || []), ...tags], c.id || '');
   return a ? pictureHtml(a) : `<figure class="art"><img src="${url('art/' + art + '.webp')}" alt="" loading="lazy"><figcaption><b>AI再現</b>イメージ</figcaption></figure>`;
 }
 function srcHtml(x: any) {
@@ -195,6 +197,8 @@ function panel(kind: string) {
     h = `<h2>この作品について</h2><p>『岐路の十年』は、1936〜1945年の日本を一人の人生として体験する歴史ライフシミュレーションです。</p>
       <ul class="rules"><li><span class="tag real">史実</span>出来事は日付と出典つき。解釈に議論があるものは「論争あり」と明記。</li><li><span class="tag alt">改変</span>もしもの分岐は、原因となった決断と共に表示。</li><li><em class="cre">創作</em>実在人物の台詞は創作であることを明記。肖像は生成しません。</li><li><b>AI再現</b>画像はAIで作ったイメージで、実在の写真ではありません。</li><li>日本の加害、アジア・太平洋の人々の被害、銃後の苦しみを、美化せずに描きます。</li></ul>
       <h3>主な出典</h3><ul class="srcs">${srcs.map(s => `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><small>${esc(s.publisher)}</small></li>`).join('')}</ul>
+      <h3>写真・映像のクレジット</h3><p class="fine">実写真・実映像はWikimedia Commons等のパブリックドメイン／自由ライセンス素材です（一覧は docs/MEDIA_SOURCES.md）。AI再現素材は架空のイメージです。</p><ul class="srcs credits">${manifestNow().filter(m => !m.ai).map(m => `<li><a href="${esc(m.source)}" target="_blank" rel="noopener">${m.type === 'clip' ? '🎞 ' : ''}${esc(m.label)}</a><small>${esc(m.rights || '')}・${esc(m.license)}</small></li>`).join('')}</ul>
+      <p class="fine">AI再現素材: ${manifestNow().filter(m => m.ai).length}点（画面上に「AI再現」と表示）</p>
       <p class="fine">v${esc(D.version)}・内容 ${D.hist.length}史実/改変記録・${D.events.length}イベント</p>`;
   }
   o.innerHTML = `<div class="sheet panel"><button class="close" aria-label="閉じる">×</button>${h}</div>`;

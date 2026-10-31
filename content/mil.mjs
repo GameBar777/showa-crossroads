@@ -27,12 +27,12 @@ mother|まあ、痩せたね。
 narr|母はとっておきの白米を炊いた。`, [C('🍚', '腹いっぱい食べる', 'safe', 'hp+8 spirit+6 r.mother+8'), C('💌', '{partner}に会いに行く', 'safe', 'r.partner+12 spirit+6', { need: ['rom_met'] })], { art: 'village' }),
   // ---- army China front ----
   E('mil_army_ship_china', 'front', c(A, { from: '1937-08', to: '1938-06', not: ['at_front', 'alt_china_truce'], w: 0, auto: 1 }), `動員令。部隊は大陸へ。輸送船の船倉は汗と吐瀉物の匂い。
-friend|すぐ終わるって話だ。正月には帰れるさ。`, [C('🚢', '海を渡る', 'safe', '+at_front +deployed +china_front')], { art: 'navy' }),
-  E('mil_army_march', 'front', c(A, { flags: ['china_front'], w: 5, cd: 14 }), `一日40キロの行軍。靴擦れが化膿している。
+friend|すぐ終わるって話だ。正月には帰れるさ。`, [C('🚢', '海を渡る', 'safe', '+at_front +deployed +china_front +chain', { later: [0, 'cn_01'] })], { art: 'navy', img: 'cn_flagship' }),
+  E('mil_army_march', 'front', c(A, { flags: ['china_front'], not: ['chain'], w: 5, cd: 14 }), `一日40キロの行軍。靴擦れが化膿している。
 friend|水、少しくれないか。`, [C('💧', '水筒を分ける', 'cost', 'hp-4 r.friend+12'), C('🚶', '自分も限界だ', 'safe', 'hp-1 r.friend-3')], { art: 'refugees' }),
-  E('mil_army_creek', 'front', c(A, { flags: ['china_front'], w: 4, cd: 16 }), `クリーク（水路）沿いの戦闘。対岸から撃たれる。
+  E('mil_army_creek', 'front', c(A, { flags: ['china_front'], not: ['chain'], w: 4, cd: 16 }), `クリーク（水路）沿いの戦闘。対岸から撃たれる。
 officer|突撃準備！`, [C('🎌', '先頭で飛び出す', 'gamble', 'rep+8 hp-10', { risk: 10 }), C('🛡️', '仲間と援護し合いながら前進', 'safe', 'hp-6 r.friend+5', { risk: 4 })], { art: 'refugees' }),
-  E('mil_army_nanjing_order', 'warcrime', c(A, { on: 'h_nanjing', w: 0 }), `城内掃討。捕虜と、軍服を脱いだ男たちと、市民の区別がつかない。
+  E('mil_army_nanjing_order', 'warcrime', c(A, { on: 'h_nanjing', not: ['chain'], w: 0 }), `城内掃討。捕虜と、軍服を脱いだ男たちと、市民の区別がつかない。
 officer|「処置」しろ。
 narr|捕虜の不法殺害や民間人への暴行が、各所で起きていた。`, [
     C('🙅', '命令をはぐらかし、連行だけにとどめる', 'gamble', 'consc+12 rep-6', { check: { base: 45, add: { rep: 0.2 } }, lose: { e: 'hp-6 rep-6', res: '上官に殴り倒された。' }, later: [100, 'post_nanjing_memory'] }),
@@ -41,26 +41,26 @@ narr|捕虜の不法殺害や民間人への暴行が、各所で起きていた
   E('post_nanjing_memory', 'postwar', c({}, { flags: ['war_over'], w: 0, modes: ['mil', 'civ'] }), `戦後、何十年も経ってから。
 narr|夢に出るのは、あの冬の城壁だった。
 child|……お父さん、戦争のこと、話してくれる？`, [C('🗣️', '見たことを話す', 'gamble', 'spirit+6 consc+8 r.child+10'), C('🤐', '「忘れた」と言う', 'safe', 'spirit-6')], { art: 'postwar', echo: true }),
-  E('mil_army_xuzhou', 'front', c(A, { flags: ['china_front'], from: '1938-04', to: '1938-08', w: 4 }), `徐州へ。麦畑が地平線まで続く。
+  E('mil_army_xuzhou', 'front', c(A, { flags: ['china_front'], not: ['chain'], from: '1938-04', to: '1938-08', w: 4 }), `徐州へ。麦畑が地平線まで続く。
 narr|「麦と兵隊」という本が内地で売れているらしい。`, [C('🌾', '麦畑を黙々と進む', 'safe', 'hp-5', { risk: 5 })], { art: 'refugees' }),
   E('mil_army_malaria', 'front', c(A, { flags: ['at_front'], w: 3, cd: 24 }), `高熱と悪寒。マラリアだ。
 medic|キニーネが足りない。`, [C('💊', '最後の薬をもらう', 'gamble', 'hp-8 r.friend-3', { check: { base: 70, add: { hp: 0.2 } }, lose: { e: 'hp-20', res: '三週間、生死の境をさまよった。' } }), C('🙏', '薬は若い兵に回してもらう', 'cost', 'hp-15 consc+6', { risk: 6 })], { art: 'hospital' }),
-  E('mil_army_friend_dies', 'front', c({}, { flags: ['at_front'], w: 3, not: ['friend_dead'], from: '1938-01' }), `{friend}が撃たれた。
+  E('mil_army_friend_dies', 'front', c({}, { flags: ['at_front'], w: 3, not: ['friend_dead', 'chain'], from: '1938-01' }), `{friend}が撃たれた。
 friend|……家に、手紙……頼む。
 narr|血の付いた封筒を握らされた。`, [C('✉️', '手紙を必ず届けると約束する', 'safe', 'spirit-12 item:friend_letter +friend_dead npc:friend:dead', { later: [30, 'mil_friend_letter_deliver'] })], { art: 'refugees' }),
   E('mil_friend_letter_deliver', 'family', { modes: ['mil', 'civ', 'cmd'], items: ['friend_letter'], flags: ['war_over'], w: 0 }, `{friend}の故郷の家。年老いた母親が出てきた。
 narr|血の跡の付いた封筒を渡す。
 mother_f|……あの子の字だ。`, [C('🙇', '最期の様子を正直に伝える', 'safe', 'spirit+5 consc+6'), C('🌸', '「苦しまなかった」と伝える', 'safe', 'spirit+3')], { art: 'village', echo: true }),
   // ---- army South / Pacific ----
-  E('mil_army_south', 'front', c(A, { from: '1941-11', to: '1942-03', not: ['south_front', 'alt_us_deal'], w: 0, auto: 1 }), `部隊が南方へ転用される。行き先は知らされない。
-friend|暑いところらしいぞ。`, [C('🚢', '輸送船に乗る', 'safe', '+south_front +at_front +deployed -china_front')], { art: 'navy' }),
-  E('mil_army_bicycle', 'front', c(A, { flags: ['south_front'], from: '1941-12', to: '1942-02', w: 4 }), `マレー半島。自転車で密林の道を南へ。
+  E('mil_army_south', 'front', c(A, { from: '1941-11', to: '1942-03', not: ['south_front', 'alt_us_deal', 'chain'], w: 0, auto: 1 }), `部隊が南方へ転用される。行き先は知らされない。
+friend|暑いところらしいぞ。`, [C('🚢', '輸送船に乗る', 'safe', '+south_front +at_front +deployed +chain -china_front', { later: [0, 'pc_01'] })], { art: 'navy', img: 'ph_ls11' }),
+  E('mil_army_bicycle', 'front', c(A, { flags: ['south_front'], not: ['chain'], from: '1941-12', to: '1942-02', w: 4 }), `マレー半島。自転車で密林の道を南へ。
 narr|タイヤが溶けるほどの暑さ。`, [C('🚲', '進む', 'safe', 'hp-5 rep+3', { risk: 4 })], { art: 'refugees' }),
-  E('mil_army_guadal_hunger', 'front', c(A, { flags: ['south_front'], from: '1942-09', to: '1943-02', w: 4, not: ['alt_us_deal'] }), `補給が来ない。木の根と草をかじる。
+  E('mil_army_guadal_hunger', 'front', c(A, { flags: ['south_front'], from: '1942-09', to: '1943-02', w: 4, not: ['alt_us_deal', 'chain'] }), `補給が来ない。木の根と草をかじる。
 narr|兵たちはこの島を「餓島」と呼んだ。`, [C('🌿', '食べられる草を探す', 'gamble', 'hp-12', { risk: 10 }), C('🍙', '最後の米を病兵に分ける', 'cost', 'hp-15 consc+8', { risk: 8 })], { art: 'refugees', note: 'ガダルカナル島では戦死者の多くが餓死・病死だった（史実）。' }),
-  E('mil_army_imphal', 'front', c(A, { flags: ['south_front'], on: 'h_imphal', w: 0 }), `インパールへ。牛を連れて、山を越えろという。
+  E('mil_army_imphal', 'front', c(A, { flags: ['south_front'], not: ['chain'], on: 'h_imphal', w: 0 }), `インパールへ。牛を連れて、山を越えろという。
 narr|補給はない。「白骨街道」と呼ばれる道になる。`, [C('🥾', '行軍する', 'gamble', 'hp-25', { risk: 20 }), C('🤝', '動けない戦友を背負う', 'cost', 'hp-30 consc+10', { risk: 22 })], { art: 'refugees' }),
-  E('mil_army_gyokusai_order', 'front', c(A, { flags: ['south_front'], from: '1944-06', to: '1945-08', w: 3 }), `守備隊長が言う。
+  E('mil_army_gyokusai_order', 'front', c(A, { flags: ['south_front'], not: ['chain'], from: '1944-06', to: '1945-08', w: 3 }), `守備隊長が言う。
 officer|最後の一兵まで。生きて虜囚の辱めを受けず。
 narr|洞窟の奥には、逃げ込んだ住民もいる。`, [
     C('🗡️', '突撃に加わる', 'gamble', 'rep+5', { risk: 60 }),
@@ -107,7 +107,7 @@ officer|……武装解除に応じる。
 narr|へたり込む者。泣く者。まだ戦うと叫ぶ者。`, [C('🫡', '従う', 'safe', 'spirit+3'), C('😶', '空を見る。帰れるのだろうか', 'safe', 'spirit+5')], { art: 'postwar' }),
   E('mil_siberia', 'postwar', c({}, { flags: ['war_over', 'manchuria_post'], w: 0, auto: 1 }), `貨車は東ではなく、北へ向かった。
 narr|シベリアの収容所。零下30度。黒パンと薄いスープ。`, [C('🪵', '伐採の労働に耐える', 'gamble', 'hp-30', { risk: 12, res: '三度目の冬を越えて、帰国船の名前を聞いた。' })], { art: 'refugees' }),
-  E('mil_army_mankki', 'career', c(A, { flags: ['china_front'], not: ['mankki_done', 'war_over'], from: '1939-03', to: '1941-06', w: 7 }), `中隊事務室。准尉が名簿をめくる。
+  E('mil_army_mankki', 'career', c(A, { flags: ['china_front', 'cn_done'], not: ['mankki_done', 'war_over', 'chain'], from: '1939-03', to: '1941-06', w: 7 }), `中隊事務室。准尉が名簿をめくる。
 officer|満期除隊だ。内地へ帰れ。
 narr|戦地の兵は、満期を過ぎても留め置かれることが多かった。帰れるのは、運のいい者だけだ。`, [
     C('🚢', '帰国船に乗る', 'safe', '+mankki_done -at_front -china_front -deployed spirit+12', { res: '港で母が泣いていた。だが、在郷軍人名簿に名は残る。', later: [20, 'mil_recall'] }),
@@ -116,9 +116,9 @@ narr|戦地の兵は、満期を過ぎても留め置かれることが多かっ
   E('mil_recall', 'conscription', c(A, { not: ['war_over'], w: 0 }), `二度目の赤紙。
 mother|また、行くのかい。
 narr|再召集。今度の行き先は、南方だと噂されていた。`, [
-    C('🫡', '出頭する', 'safe', '+deployed +at_front +south_front spirit-8', { res: '家族写真を、軍隊手帳に挟んだ。' }),
+    C('🫡', '出頭する', 'safe', '+deployed +at_front +chain spirit-8', { res: '家族写真を、軍隊手帳に挟んだ。', later: [1, 'pc_01'] }),
   ], { art: 'station', note: '再召集（史実）。' }),
-  E('mil_demob', 'postwar', c({}, { flags: ['war_over'], not: ['demobbed', 'manchuria_post'], w: 0, auto: 2 }), `復員船。故郷の山が見えた。
+  E('mil_demob', 'postwar', c({}, { flags: ['war_over'], not: ['demobbed', 'manchuria_post', 'chain'], w: 0, auto: 2 }), `復員船。故郷の山が見えた。
 narr|港では、「〇〇部隊の消息を知りませんか」という札を持った人々が並んでいた。`, [C('🧳', '上陸する', 'safe', '+demobbed spirit+5', { become: 'civ_post' })], { art: 'postwar' }),
   E('mil_pow_camp', 'postwar', c({}, { flags: ['pow'], w: 0, auto: 1 }), `捕虜収容所。米兵が煙草をくれた。
 narr|「捕虜になれば家族が恥をかく」と教えられてきた。
